@@ -1,0 +1,15 @@
+name: "Blog of Weixiang Zhang"
+description: "Detailed In This Chapter by Weixiang Zhang"
+
+url: "http://blog.zhangweixiang.com"
+loadingImg: "http://blog.zhangweixiang.com/img/loading.gif"
+filePath: "http://blog.zhangweixiang.com/img/"
+
+timezone: Asia/Hangzhou
+
+paginate: 20
+
+highlighter: pygments
+
+markdown: rdiscount
+permalink: pretty
