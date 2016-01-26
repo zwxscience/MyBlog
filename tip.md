@@ -7,7 +7,7 @@ subtitle: 送维祥一本书，让他写出更棒的文章！
 
 {% include follow.html %}
 
-我就是羡辙啦！喜欢在业余时间捣腾些<a href="https://github.com/Ovilia" target="_blank">有意思的项目</a>。我写过电子书《Three.js 入门指南》，可以在<a href="http://read.douban.com/ebook/7412854">豆瓣阅读</a>和<a href="http://www.ituring.com.cn/book/1272">图灵社区</a>免费阅读。
+我喜欢在业余时间捣腾些<a href="https://github.com/zwxscience" target="_blank">有意思的项目</a>。
 
 我每年要读好多书（可以到<a href="http://book.douban.com/people/ovilia1024/collect" target="_blank">豆瓣读书</a>查看我最近读过的书），也要买很多书。自从买了 Kindle Paperwhite 2，阅读量更是直线上升。当然，数字并不能说明一切，因为有的书很厚，有的书需要慢慢品味，有的技术书应该跳着读，所以数字只能作为一个大致的参考。
 
@@ -15,7 +15,7 @@ subtitle: 送维祥一本书，让他写出更棒的文章！
 
 <div id="reading-chart" style="height: 400px"></div>
 
-看了这么多书，当然也花了不少钱买书，钱包君表示再也受不了啦~ 好在 Kindle 上买电子书相对便宜些（罪恶地说，也读了不少盗版书，甚至还罪孽深重地做了<a href="https://github.com/Ovilia/readfree-chrome-extension" target="_blank">一个工具</a>帮你找盗版书），交大图书馆的馆藏资源又特别丰富（可惜马上要毕业啦）。尽量克制自己囤书的欲望，不过该买的还得买买买呀！
+看了这么多书，当然也花了不少钱买书，钱包君表示再也受不了啦~ 好在 Kindle 上买电子书相对便宜些（罪恶地说，也读了不少盗版书。尽量克制自己囤书的欲望，不过该买的还得买买买呀！
 
 所以，如果你愿意贡献一份财力的话，weixiang在这里先行谢过啦！
 
