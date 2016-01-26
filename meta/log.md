@@ -5,6 +5,7 @@ postClass: no-indent
 ---
 
 This is not only the log about major changes happening under *zhangweixiang.com*, but also the changes in myself. Started from the beginning of 2014, I hope this journey never to be ended.
+More detail you can find in <a href="http://zhangweixiang.com/history-date.html" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToGitHub', 'InLog', 'handian']);">history-date</a>. 
 
 # 2014
 
