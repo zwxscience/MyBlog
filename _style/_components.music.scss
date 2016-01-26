@@ -16,7 +16,6 @@
     transition: 1sec;
 
     // Fix the bug on fixed element with Chrome
-    // Check https://github.com/Ovilia/blog/issues/5
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 

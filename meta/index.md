@@ -15,13 +15,13 @@ Hope you enjoy the journey here!
 
 Hi, there!
 
-I'm Wenli Zhang, a Web Front-end designer and developer with experience of more than 3 years. I write <a href="{{ site.url }}" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToBlog', 'InSiteMap', 'btn']);">blog</a> and <a href="https://twitter.com/OviliaZhang" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToLink', 'InSiteMap', 'Twitter']);">tweet (@OviliaZhang)</a> about Web Front-end topics. I'm also an active committer at <a href="https://github.com/Ovilia" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToGitHub', 'InSiteMap', 'aboutMe']);">GitHub (@Ovilia)</a> .
+I'm Weixiang Zhang, a Communication R&D Engineer with work experience of more than 3 years. I write <a href="{{ site.url }}" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToBlog', 'InSiteMap', 'btn']);">blog</a> about Images Processing and Web Development topics. I'm also an active committer at <a href="https://github.com/zwxscience" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToGitHub', 'InSiteMap', 'aboutMe']);">GitHub (@zwxscience)</a> .
 
 Find more information about me at:
 
 <a class="button" href="http://zhangweixiang.com" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToHome', 'InSiteMap', 'home']);">Home</a>
 <a class="button" href="{{ site.url }}" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToBlog', 'InSiteMap', 'btn']);">Blog</a>
-<a class="button" href="http://zhangwenli.com/cv" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToHome', 'InSiteMap', 'hireMe']);">Hire Me</a>
+<a class="button" href="http://zhangweixiang.com/cv" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToHome', 'InSiteMap', 'hireMe']);">Hire Me</a>
 <a class="button" href="mailto:zwxscience@163.com" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToHome', 'InSiteMap', 'email']);">Email Me</a>
 
 # About This Site
@@ -32,7 +32,7 @@ This blog is built with <a href="http://jekyllrb.com" target="_blank" onclick="_
 
 ## RSS
 
-RSS is available for <a href="{{ site.url }}/feed-en.xml" target="_blank" title="RSS of Wenli Zhang" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToRss', 'EnRss', window.location.pathname]);">English posts</a>, <a href="{{ site.url }}/feed-cn.xml" target="_blank" title="RSS of Wenli Zhang" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToRss', 'CnRss', window.location.pathname]);">中文博客</a>, and <a href="{{ site.url }}/feed.xml" target="_blank" title="RSS of Wenli Zhang" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToRss', 'AllRss', window.location.pathname]);">both languages</a>.
+RSS is available for <a href="{{ site.url }}/feed-en.xml" target="_blank" title="RSS of Weixiang Zhang" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToRss', 'EnRss', window.location.pathname]);">English posts</a>, <a href="{{ site.url }}/feed-cn.xml" target="_blank" title="RSS of Weixiang Zhang" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToRss', 'CnRss', window.location.pathname]);">中文博客</a>, and <a href="{{ site.url }}/feed.xml" target="_blank" title="RSS of Weixiang Zhang" target="_blank" onclick="_gaq.push(['_trackEvent', 'ToRss', 'AllRss', window.location.pathname]);">both languages</a>.
 
 ## Change Log
 

@@ -4,7 +4,7 @@ function loadMusic() {
         $('#music-content').append('<iframe frameborder="no" border="0"'
                 + ' marginwidth="0" marginheight="0" width=330 height=450'
                 + ' src="http://music.163.com/outchain/player?type=0'
-                + '&id=49176408&auto=0&height=430"></iframe>');
+                + '&id=160240671&auto=0&height=430"></iframe>');
     }
 }
 
@@ -24,7 +24,7 @@ function processPageView(rows) {
     $('.post-block').each(function() {
         var myPath = $(this).children('h2').children('a').attr('href');
         if (myPath) {
-            myPath = myPath.slice('http://zhangweixiang.com'.length);
+            myPath = myPath.slice('http://blog.zhangweixiang.com'.length);
             var len = rows.length;
             var cnt = 0;
             for (var i = 0; i < len; ++i) {
@@ -46,9 +46,9 @@ function processPageView(rows) {
     });
 }
 
-LazyLoad.css('/blog/css/font.css');
+LazyLoad.css('/css/font.css');
 
-LazyLoad.js('https://cdn.jsdelivr.net/jquery/1.11.3/jquery.min.js', function () {
+LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
     $('h1').each(function() {
         if ($(this).children('.h1-link').length === 0) {
             var id = $(this).text().replace(/\ /g, '-').replace(/\W^\-/g, '')
@@ -61,18 +61,18 @@ LazyLoad.js('https://cdn.jsdelivr.net/jquery/1.11.3/jquery.min.js', function () 
     });
 
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) === false) {
-        LazyLoad.js('/blog/js/jquery.timeago.min.js', function () {
+        LazyLoad.js('/js/jquery.timeago.min.js', function () {
             $('.timeago').timeago().show();
         });
     }
 
-    LazyLoad.js('/blog/js/unviel.min.js', function () {
+    LazyLoad.js('/js/unviel.min.js', function () {
         $("img").unveil();
 
         // google pageview
         setTimeout(function() {
             $.ajax({
-                url: 'https://ovilia-blog-1234.appspot.com/query?id=ahJzfm92aWxpYS1ibG9nLTEyMzRyFQsSCEFwaVF1ZXJ5GICAgIC6qI4KDA',
+                url: 'https://www.googleapis.com/analytics/v3/data/ga?ids=ga%3A115361882&start-date=30daysAgo&end-date=yesterday&metrics=ga%3Apageviews&access_token=ya29.dQLCJDGc6AtBVrUaKUiDzu28GOi0thr-TzEhMM0a7Zz7Mzx0vo8IjGs_PBUKc9uVgLEX',
                 dataType: 'jsonp',
                 timeout: 1000 * 3, // 3 sec
                 success: function(data) {
@@ -82,7 +82,7 @@ LazyLoad.js('https://cdn.jsdelivr.net/jquery/1.11.3/jquery.min.js', function () 
                     // if fail to get up-to-date data from GAE, get cached local version
                     console.log('Failed to get page view from GAE!');
                     $.ajax({
-                        url: '/blog/pageview.json',
+                        url: '/pageview.json',
                         dataType: 'json',
                         success: function(data) {
                             console.log('Local page view used.');
@@ -106,8 +106,8 @@ LazyLoad.js('https://cdn.jsdelivr.net/jquery/1.11.3/jquery.min.js', function () 
 
 // emoji
 setTimeout(function() {
-    LazyLoad.css('/blog/css/emojify.min.css', function () {
-        LazyLoad.js('/blog/js/emojify.min.js', function () {
+    LazyLoad.css('/css/emojify.min.css', function () {
+        LazyLoad.js('/js/emojify.min.js', function () {
             emojify.setConfig({
                 emoticons_enabled: true,
                 people_enabled: true,
