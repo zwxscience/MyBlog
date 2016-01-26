@@ -72,7 +72,7 @@ LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
         // google pageview
         setTimeout(function() {
             $.ajax({
-                url: 'https://www.googleapis.com/analytics/v3/data/ga?ids=ga%3A115361882&start-date=30daysAgo&end-date=yesterday&metrics=ga%3Apageviews&access_token=ya29.dQLCJDGc6AtBVrUaKUiDzu28GOi0thr-TzEhMM0a7Zz7Mzx0vo8IjGs_PBUKc9uVgLEX',
+                url: 'https://www.googleapis.com/analytics/v3/data/ga?ids=ga%3A115361882&start-date=30daysAgo&end-date=today&metrics=ga%3Ausers&dimensions=ga%3ApagePath&access_token=ya29.dQIsAydlmvSGHbfYDgHG14gjLIxzaaO4YAlR7YuMIayeaK6T-Uf4hPDvp9_0SGEYxGeX',
                 dataType: 'jsonp',
                 timeout: 1000 * 3, // 3 sec
                 success: function(data) {
