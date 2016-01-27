@@ -117,6 +117,10 @@ setTimeout(function() {
         });
     });
 }, 5000);
+LazyLoad.js('/js/jquery.qrcode.min.js', function () {
+	//generate QR code 
+	jQuery('#qrshare').qrcode(window.location.href);
+        });
 
 // other files for different pages, define loadJs arrary
 if (typeof loadJs === 'object') {

@@ -1,9 +1,9 @@
 name: "Xavier's Blog"
 description: "Detailed In This Chapter by Weixiang Zhang"
 
-url: "http://127.0.0.1:4000"
-loadingImg: "http://127.0.0.1:4000/img/loading.gif"
-filePath: "http://127.0.0.1:4000/img/"
+url: "http://blog.zhangweixiang.com"
+loadingImg: "http://blog.zhangweixiang.com/img/loading.gif"
+filePath: "http://blog.zhangweixiang.com/img/"
 
 timezone: Asia/Hangzhou
 
