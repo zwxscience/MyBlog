@@ -7,8 +7,11 @@ tags:
 - Liquid
 - GitHub
 - Ruby
+series: Ovilia
 excerpt: This post introduces how to implement *related posts* function with Jekyll. Since GitHub disables plugin for security reasons, plugins like <a href="https://github.com/LawrenceWoodman/related_posts-jekyll_plugin" targe="_blank">LawrenceWoodman / related_posts-jekyll_plugin</a> cannot be used. Default `site.related_posts` may return recent posts when there aren't enough posts sharing the same tags with current post.
 ---
+
+<code>Notice:This article is written by Ovilia.</code>
 
 > #### What will you learn in this post?
 

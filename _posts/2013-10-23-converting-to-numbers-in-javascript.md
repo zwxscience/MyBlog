@@ -4,9 +4,11 @@ time: 2013.10.23 15:56:00
 layout: post
 tags:
 - JavaScript
-series: JavaScript Language Feature
+series: Ovilia
 excerpt: Sometimes we think someone or something is strange only because we expect differently. `Number()`, `parstInt()` and `parseFloat` are three ways to convert to `Number` type in JavaScript. However, they act differently and may suprise you in some cases. In this post, I would like to talk about what to expect from them and why they act differently.
 ---
+
+<code>Notice:This article is written by Ovilia.</code>
 
 > #### What you will learn in this post
 

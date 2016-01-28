@@ -9,8 +9,11 @@ tags:
 - GitHub
 - Jekyll
 shortUrl: http://goo.gl/CUJFuB
+series: Ovilia
 excerpt: You can now display pageview information from your Google Analytics in your blog hosted anywhere! No server required. Pure JavaScript. This post introduces how to do it with <a href="https://github.com/googleanalytics/google-analytics-super-proxy" target="_blank">Google Analytics superProxy</a>.
 ---
+
+<code>Notice:This article is written by Ovilia.</code>
 
 > #### What will you learn in this post?
 
@@ -58,7 +61,7 @@ We need to create a project at <a href="https://console.developers.google.com" t
 
 ## Create Client ID
 
-1. In <a href="https://console.developers.google.com" target="_blank">Google Developers Console</a>, click `API Manager` > `Credentials` > `Create New Client ID`.
+1. In <a href="https://console.developers.google.com" target="_blank">Google Developers Console</a>, click `APIS & AUTH` > `Credentials` > `Create New Client ID`.
 
 2. Choose `Web application`.
 
@@ -76,13 +79,13 @@ You can follow the next steps according to <a href="https://github.com/googleana
 
 ## Create Query
 
-Test your query well on <a href="https://ga-dev-tools.appspot.com/query-explorer/" target="_blank">Google Analytics Query Explorer 2</a>.Then it shows an table and you need to select the items you want to show.
+Test your query well on <a href="https://ga-dev-tools.appspot.com/explorer/" target="_blank">Google Analytics Query Explorer 2</a>.
 
 When it works, you should see something like this.
 
 <img src="{{ site.loadingImg }}" data-src="{{ site.url }}/img/post/2014-08-05-page-view-from-google-analytics-for-your-blog-01.png" />
 
-If you visit <a href="https://www.googleapis.com/analytics/v3/data/ga?ids=ga%3A115361882&start-date=30daysAgo&end-date=yesterday&metrics=ga%3Apageviews&access_token=ya29.dQLCJDGc6AtBVrUaKUiDzu28GOi0thr-TzEhMM0a7Zz7Mzx0vo8IjGs_PBUKc9uVgLEX" target="_blank">the link in the image</a>, you can get the JSON file of pageview information!
+If you visit <a href="https://ovilia-blog-1234.appspot.com/query?id=ahJzfm92aWxpYS1ibG9nLTEyMzRyFQsSCEFwaVF1ZXJ5GICAgIC6qI4KDA" target="_blank">the link in the image</a>, you can get the JSON file of pageview information!
 
 # Final Touches
 
@@ -94,7 +97,7 @@ Since GAE may not be accessed sometime, I cached the JSON file to GitHub host so
 if ($('#page-view').length > 0) {
     // load pageview if this page has #page-view div
     $.ajax({
-        url: 'https://www.googleapis.com/analytics/v3/data/ga?ids=ga%3A115361882&start-date=30daysAgo&end-date=yesterday&metrics=ga%3Apageviews&access_token=ya29.dQLCJDGc6AtBVrUaKUiDzu28GOi0thr-TzEhMM0a7Zz7Mzx0vo8IjGs_PBUKc9uVgLEX',
+        url: 'https://ovilia-blog-1234.appspot.com/query?id=ahJzfm92aWxpYS1ibG9nLTEyMzRyFQsSCEFwaVF1ZXJ5GICAgIC6qI4KDA',
         dataType: 'jsonp',  // for cross-origin access
         timeout: 1000 * 30, // 30 sec
         success: function(data) {

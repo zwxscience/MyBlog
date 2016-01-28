@@ -6,8 +6,11 @@ tags:
 - SyntaxHighlighting
 - GitHub
 - Jekyll
+series: Ovilia
 excerpt: In this post, I'm going to explain how to set up syntax hightlighting for Jekyll in GitHub style. Although I would not say GitHub code syntax style is the prettiest one, it is a good choice if you don't want to write your own.
 ---
+
+<code>Notice:This article is written by Ovilia.</code>
 
 > #### What You Will Learn In This Post
 

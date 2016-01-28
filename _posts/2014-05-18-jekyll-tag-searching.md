@@ -7,8 +7,11 @@ tags:
 - Tag
 - Liquid
 - JavaScript
+series: Ovilia
 excerpt: This post introduces how to achieve searching tags with Jekyll, without using a Jekyll Plugin. The basic idea is to display all posts grouped by tags, and then use CSS to hide all except posts with the searching tag. We can get the searching tag in URL query string using JavaScript.
 ---
+
+<code>Notice:This article is written by Ovilia.</code>
 
 > #### What will you learn in this post?
 

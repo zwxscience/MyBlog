@@ -9,10 +9,12 @@ tags:
 - CSS
 - JavaScript
 - jQuery
-series: Dive into Web Front-End Programming
+series: Ovilia
 shortUrl: http://goo.gl/zeVQhk
 excerpt: In this post, we introduced what HTML, CSS and JavaScript are and how they can work together. HTML files define the content of Web pages, CSS the style, and JavaScript the interaction. 
 ---
+
+<code>Notice:This article is written by Ovilia.</code>
 
 **Ideally, HTML files define the content of Web pages (text, image, video, etc.), CSS the style (how they look like), and JavaScript the interaction (e.g., what happens when user clicks the button). ** 
 

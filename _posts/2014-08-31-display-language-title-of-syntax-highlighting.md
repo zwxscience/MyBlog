@@ -6,8 +6,11 @@ tags:
 - SyntaxHighlighting
 - CSS
 - CSS3
+series: Ovilia
 excerpt: In the post <a href="http://zhangwenli.com/blog/2014/02/10/syntax-highlighting-for-jekyll/">Syntax Highlighting for Jekyll</a>, I introduced how to enabld syntax highlighting feature with Jekyll Websited hosted on GitHub. In this post, I'm going to talk more about how to display the language in which the code is highlighted.
 ---
+
+<code>Notice:This article is written by Ovilia.</code>
 
 > #### What You Will Learn In This Post
 
