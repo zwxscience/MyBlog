@@ -67,7 +67,7 @@ Hi,我是 weixiang ，英文名叫<strong>Xavier</strong>（谁叫在外企工�
             series: [{
                 name: '2015',
                 type: 'bar',
-                data: [7, 9, 9, 7, 8, 7, 8, 11, 9, 12],
+                data: [7, 9, 9, 7, 8, 7, 14, 11, 9, 12],
                 itemStyle: {
                     normal: {
                         color: '#D0648A'
