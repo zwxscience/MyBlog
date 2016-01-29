@@ -10,9 +10,8 @@ tags:
 series: 书海泛舟人
 excerpt: 在微博上看到今天叶芝逝世的纪念日.曾经有一段日子，非常迷恋他的诗歌，尤是那首when you are old，在彼时热衷于搜索各个版本，到现在还有存有记录。
 ---
-
+<a href="http://book.douban.com/subject/1942524/" target="_blank"><img class="book-img" src="{{ site.loadingImg }}" data-src="http://img3.douban.com/lpic/s10070702.jpg" /></a>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=4875059&auto=0&height=32"></iframe>
-
 在微博上看到今天叶芝逝世的纪念日，心里突然想起这个浪漫主义诗人来。
 曾经在大学有一段日子，非常迷恋他的诗歌，尤是那首 **当你老了**，在彼时热衷于搜索各个版本，到现在还有存有记录。
 
