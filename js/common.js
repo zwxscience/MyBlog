@@ -118,8 +118,23 @@ setTimeout(function() {
     });
 }, 5000);
 LazyLoad.js('/js/jquery.qrcode.min.js', function () {
-	//generate QR code 
+//Get shorturl by sina
 	var url = toUtf8(window.location.href);  
+	$.ajax({ 
+			async:false,
+			url: "http://api.t.sina.com.cn/short_url/shorten.xml?source=724876739&url_long="+url,
+			context: document.body,
+			dataType: "jsoncallback",
+			type: "GET",
+			dataType:'jsonp',
+			success: function(data){
+					url = data[0].url_short;//shortname
+			},
+			error: function(data){
+					url = url;
+			}
+			});
+	//generate QR code 
 	jQuery('#qrshare').qrcode({     
 						render: "table", //table方式      
 						width: 200, //宽度      
