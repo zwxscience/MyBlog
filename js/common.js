@@ -122,7 +122,7 @@ LazyLoad.js('/js/jquery.qrcode.min.js', function () {
 	var url = toUtf8(window.location.href);  
 	$.ajax({ 
 			async:false,
-			url: "http://api.t.sina.com.cn/short_url/shorten.xml?source=724876739&url_long="+url,
+			url: "http://api.t.sina.com.cn/short_url/shorten.json?url_long="+url+"&source=724876739",
 			context: document.body,
 			dataType: "jsoncallback",
 			type: "GET",
