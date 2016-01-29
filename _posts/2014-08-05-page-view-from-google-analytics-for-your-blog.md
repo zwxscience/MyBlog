@@ -168,3 +168,5 @@ function updatePageView(cnt) {
 I set the refresh rate of superProxy to be 10 minutes. But since you may get the cached version from GitHub, it's not always accurate. And the `metrics` is set to be `users` so that when one visit the same page some days later, it will not be counted as another visit.
 
 **Come first next time!** :yum:
+#if you are a Chinese
+Please Refer[如何给 Jekyll 博文添加阅读数显示](http://taoalpha.me/blog/2015/06/07/tech-add-google-analytics-pageviews-to-jekyll-blog/)
