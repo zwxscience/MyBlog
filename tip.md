@@ -7,7 +7,7 @@ subtitle: 给 weixiang 打赏点书资吧，让他写出更棒的文章！
 
 {% include follow.html %}
 
-Hi,我是 weixiang ，英文名叫<strong>Xavier</strong>（谁叫在外企工作呢 :unamused: ），目前是一名通信小兵。
+Hi,我是 weixiang ，为了工作方便，英文名<strong>Xavier</strong>，目前是一名通信小兵。
 至于为什么学计算机的转战通信，那就是另外一个千里随妻的故事了。
 可能我读书时的快乐是别人的1000倍，似乎从小就喜欢看书。
 自从识字后，似乎每个寒暑假里，都是抱着从别人那里借来的书看，因为那时资源有限，看的也是五花八门。
