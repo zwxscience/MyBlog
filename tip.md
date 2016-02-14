@@ -1,13 +1,13 @@
 ---
 layout: titled
 nocomment: true
-title: 来人，看赏
+title: 来人，给红包
 subtitle: 给 weixiang 打赏点书资吧，让他写出更棒的文章！
 ---
 
 {% include follow.html %}
 
-Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前是一名通信小兵。
+Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前从事通信行业。
 至于为什么学计算机的转战通信，那就是另外一个千里随妻的故事了。
 可能我读书时的快乐比别人更强吧，似乎从小就喜欢看书。
 自从识字后，似乎每个寒暑假里，都是抱着从别人那里借来的书看，因为那时资源有限，看的也是五花八门。
@@ -60,7 +60,7 @@ Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前是一名通信�
                 trigger: 'value'
             },
             legend: {
-                data:['2015']
+                data:['2015', '2016']
             },
             grid: {
                 x: 40,
