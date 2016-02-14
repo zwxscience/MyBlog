@@ -6,8 +6,8 @@ tags:
 - 中文
 - 曦曦
 - 情人节
-series: 云中谁寄锦书来
 excerpt: 在家没时间写这些，回到杭州才有空总结一下。情人节快乐，我的儿子。那个圆滚滚，肉乎乎，萌哒哒的小娃娃，现在已经满半岁了。
+series: 云中谁寄锦书来
 ---
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=1374348&auto=1&height=32"></iframe>

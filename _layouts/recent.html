@@ -88,11 +88,9 @@
         {% if forloop.index > start and forloop.index < end %}
         {% if post.hide != true %}
             {% assign isZn = false %}
-            {% for tag in post.tags %}
-                {% if tag == '中文'%}
+                {% if post.tags contains '中文'%}
                     {% assign isZn = true %}
                 {% endif %}
-            {% endfor %}
 
             {% if isZn == true %}
             <div class="post-block cn">
