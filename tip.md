@@ -7,9 +7,9 @@ subtitle: 给 weixiang 打赏点书资吧，让他写出更棒的文章！
 
 {% include follow.html %}
 
-Hi,我是 weixiang ，为了工作方便，英文名<strong>Xavier</strong>，目前是一名通信小兵。
+Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前是一名通信小兵。
 至于为什么学计算机的转战通信，那就是另外一个千里随妻的故事了。
-可能我读书时的快乐是别人的1000倍，似乎从小就喜欢看书。
+可能我读书时的快乐比别人更强吧，似乎从小就喜欢看书。
 自从识字后，似乎每个寒暑假里，都是抱着从别人那里借来的书看，因为那时资源有限，看的也是五花八门。
 读到好书欣然起舞，甚至要逐字逐句的读出来，不知翻了多少遍；
 读到文笔差些的书，有时嫌弃的看不下去了，因为没别的书看，也是只能忍着恶心看完。
@@ -36,11 +36,15 @@ Hi,我是 weixiang ，为了工作方便，英文名<strong>Xavier</strong>，�
 
 # 打赏方式
 
-## 方法一：支付宝扫一扫
+## 方法一：微信二维码识别
+
+<img src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/mm_facetoface_collect_qrcode_1455414545364.png" />
+
+## 方法二：支付宝扫一扫
 
 <img src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/zhifu.png" />
 
-## 方法二：转账到我的支付宝账号
+## 方法三：转账到我的支付宝账号
 
 `zwxscience@163.com`
 
@@ -82,6 +86,30 @@ Hi,我是 weixiang ，为了工作方便，英文名<strong>Xavier</strong>，�
                 name: '2015',
                 type: 'bar',
                 data: [0, 0, 0, 0, 0, 0, 0, 14, 9, 13, 12, 10],
+                itemStyle: {
+                    normal: {
+                        color: '#D0648A'
+                    }
+                },
+                markPoint: {
+                    data: [{
+                        type: 'max', 
+                        name: '最大值'
+                    }, {
+                        type: 'min',
+                        name: '最小值'
+                    }]
+                },
+                markLine: {
+                    data: [{
+                        type: 'average',
+                        name: '平均值'
+                    }]
+                }
+            }, {
+                name: '2016',
+                type: 'bar',
+                data: [5, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                 itemStyle: {
                     normal: {
                         color: '#D0648A'
