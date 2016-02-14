@@ -36,7 +36,7 @@ Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前是一名通信�
 
 # 打赏方式
 
-## 方法一：微信二维码识别
+## 方法一：微信发红包吧
 
 <img src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/mm_facetoface_collect_qrcode_1455414545364.png" />
 
