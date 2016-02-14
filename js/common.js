@@ -1,4 +1,4 @@
-setTimeout(loadMusic, 20000);
+setTimeout(loadMusic, 5000);
 function loadMusic() {
     if ($('#music-content')) {
         $('#music-content').append('<iframe frameborder="no" border="0"'
