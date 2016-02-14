@@ -125,6 +125,7 @@ LazyLoad.js('/js/jquery.qrcode.min.js', function () {
 			type: "GET",
 			dataType:'jsonp',
 			//传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback) 
+			jsonp:'callback', 
 			success: function(data){
 					url = data[0].url_short;//shortname
 			},
