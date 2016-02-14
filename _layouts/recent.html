@@ -24,7 +24,7 @@
 
     {% assign start = paginator.page | minus: 1 | times: 20 %}
     {% assign end = start | plus: 20 %}
-    {% assign sortedPost = site.posts | sort: 'time' | slice: start, 10 %}
+    {% assign sortedPost = site.posts | sort: 'time' %}
     {% for post in sortedPost reversed %}
         {% if forloop.index > start and forloop.index < end %}
         {% if post.hide != true %}
@@ -101,7 +101,7 @@
 
                 <h5 class="post-series">
                     {% if post.series %}
-                    <a href="{{ site.url }}{{ post.url }}" class="series-recent" onclick="_gaq.push(['_trackEvent', 'ToSeries', '{{ postCnt.size }}thPost', window.location.pathname]);">{{ post.series }}</a>
+                    <a href="{{ site.url }}{{ post.url }}" class="series-recent" onclick="_gaq.push(['_trackEvent', 'ToSeries', '{{ postCnt.size }}thPost', window.location.pathname]);">系列博文：{{ post.series }}</a>
                     {% endif %}
                 </h5>
                 <h2>
