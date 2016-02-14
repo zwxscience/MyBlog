@@ -121,12 +121,10 @@ LazyLoad.js('/js/jquery.qrcode.min.js', function () {
 //Get shorturl by sina
 	var url = toUtf8(window.location.href);  
 	$.ajax({ 
-			async:false,
-			url: "http://api.t.sina.com.cn/short_url/shorten.json?url_long="+url+"&source=724876739",
-			context: document.body,
-			dataType: "jsoncallback",
+			url: "https://api.weibo.com/2/short_url/shorten.json?url_long="+url+"&access_token=2.006Je71B0_YVDne8af529394Z1SKFE",
 			type: "GET",
 			dataType:'jsonp',
+			//传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback) 
 			success: function(data){
 					url = data[0].url_short;//shortname
 			},
