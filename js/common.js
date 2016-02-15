@@ -146,7 +146,9 @@ LazyLoad.js('/js/jquery.qrcode.min.js', function () {
 		//adj actual width
 		var maxlength = parseInt($("#qrshare table").css("width"))>parseInt($("#qrshare table").css("height"))?parseInt($("#qrshare table").css("width")):parseInt($("#qrshare table").css("height"));
 		$("#qrshare table").css("height",maxlength+"px");
-		$("#qrshare table").css("width",maxlength+"px");
+		$("#qrshare table").css("width",maxlength+"px");	
+		$("#qrshare table").height(maxlength);
+		$("#qrshare table").width(maxlength);
     });					
 						
 });
