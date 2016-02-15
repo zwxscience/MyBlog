@@ -144,11 +144,11 @@ LazyLoad.js('/js/jquery.qrcode.min.js', function () {
 						
 	LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
 		//adj actual width
-		var maxlength = parseInt($("#qrshare table").css("width"))>parseInt($("#qrshare table").css("height"))?parseInt($("#qrshare table").css("width")):parseInt($("#qrshare table").css("height"));
-		$("#qrshare table").css("height",maxlength+"px");
-		$("#qrshare table").css("width",maxlength+"px");	
-		$("#qrshare table").height(maxlength);
-		$("#qrshare table").width(maxlength);
+		var minlength = parseInt($("#qrshare table").css("width"))<parseInt($("#qrshare table").css("height"))?parseInt($("#qrshare table").css("width")):parseInt($("#qrshare table").css("height"));
+		$("#qrshare table").css("height",minlength+"px");
+		$("#qrshare table").css("width",minlength+"px");	
+		$("#qrshare table").height(minlength);
+		$("#qrshare table").width(minlength);
     });					
 						
 });
