@@ -38,7 +38,7 @@ Jekyll是一个静态站点生成器，它会根据网页源码生成静态文�
 因为许多大神已经将他们放到 GitHub 上了。Disqus是可以为网站主提供评论托管服务，这意味着你可以免去鼓捣数据库的时间。
 在看到Jekyll那些模板展示的时候，真的以为掉进了宝库，觉得每个都写得不错。
 后来发现萌妹子**张雯莉**([GitHub](https://github.com/Ovilia/blog))的风格和爱好跟我很像，就拿过她的模板修修改改了。
-其中她的几篇技术应用如关于 Jekyll 使用和有用的插件介绍如 Logo css 动画制作和 Google analysis 等使用说明我会保留下来，做成一个**Ovilia**专题。
+其中她的几篇技术应用如关于 Jekyll 使用和有用的插件介绍如 Logo css 动画制作和 Google analysis 等使用说明我会保留下来，做成一个[**Ovilia**](http://blog.zhangweixiang.com/2014/08/31/display-language-title-of-syntax-highlighting/)专题。
 感谢，就酱～。
 
 关于怎么建站网上现在已经有很多简明教程了，我看的是**阮一峰**的[搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)。

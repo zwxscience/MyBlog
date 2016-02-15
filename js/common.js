@@ -117,10 +117,11 @@ setTimeout(function() {
         });
     });
 }, 5000);
+ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) === false) {
 LazyLoad.js('/js/jquery.qrcode.min.js', function () {
 //Get shorturl by sina
 	var url = toUtf8(window.location.href);  
-	$.ajax({ 
+/* 	$.ajax({ 
 			url: "https://api.weibo.com/2/short_url/shorten.json?url_long="+url+"&access_token=2.006Je71B0_YVDne8af529394Z1SKFE",
 			type: "GET",
 			dataType:'jsonp',
@@ -132,7 +133,7 @@ LazyLoad.js('/js/jquery.qrcode.min.js', function () {
 			error: function(data){
 					url = url;
 			}
-			});
+			}); */
 	//generate QR code 
 	jQuery('#qrshare').qrcode({     
 						render: "table", //table方式      
@@ -140,7 +141,16 @@ LazyLoad.js('/js/jquery.qrcode.min.js', function () {
 						height:200, //高度  
 						text: url //任意内容
 						}); 
-        });
+						
+	LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
+		//adj actual width
+		var maxlength = parseInt($("#qrshare table").css("width"))>parseInt($("#qrshare table").css("height"))?parseInt($("#qrshare table").css("width")):parseInt($("#qrshare table").css("height"));
+		$("#qrshare table").css("height",maxlength+"px");
+		$("#qrshare table").css("width",maxlength+"px");
+    });					
+						
+});
+ }
 
 // other files for different pages, define loadJs arrary
 if (typeof loadJs === 'object') {
