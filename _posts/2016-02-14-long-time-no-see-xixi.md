@@ -65,8 +65,7 @@ excerpt: 在家没时间写这些，回到杭州才有空总结一下。情人�
 尤其几张爸爸妈妈还给你戴了假发，看上去像个小姑娘，漂亮极了。
 希望你长大看了会喜欢，这些也是爸妈永远的珍藏。
 
-<img class="book-img" src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/xixi/mengwa.jpg" />
-
+<img class="book-img" src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/post/2016-02-14-long-time-no-see-xixi/mengwa.jpg" />
 曦曦，虽然才几个月，但却感觉你长大了。
 
 喜欢看图片，会对一幅图盯上好久。
@@ -87,8 +86,8 @@ excerpt: 在家没时间写这些，回到杭州才有空总结一下。情人�
 
 喜欢出去看世界了，不再满足爸爸抱着你在屋里唱”大王叫我来巡山”了，喜欢在明媚的日子里爸爸的怀里静静看车流人海。
 
-<img class="book-img" src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/xixi/mmexport1455446011448.jpg" />
 
+<img class="book-img" src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/post/2016-02-14-long-time-no-see-xixi/mmexport1455446011448.jpg" />
 儿子，几件小事，让我感到了你已经有了自己的尊严和主意了。
 
 `抱你时一定要先征求你的意见，否则你就满脸不高兴。`
