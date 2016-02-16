@@ -139,6 +139,8 @@ LazyLoad.js('/js/jquery.qrcode.min.js', function () {
 						render: "table", //table方式      
 						width: 200, //宽度      
 						height:200, //高度  
+						background: "#EFEFEF",//背景颜色  
+						foreground: "#666666", //前景颜色 
 						text: url //任意内容
 						}); 
 						
