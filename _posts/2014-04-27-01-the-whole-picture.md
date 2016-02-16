@@ -10,7 +10,6 @@ tags:
 - JavaScript
 - jQuery
 series: Ovilia
-shortUrl: http://goo.gl/zeVQhk
 excerpt: In this post, we introduced what HTML, CSS and JavaScript are and how they can work together. HTML files define the content of Web pages, CSS the style, and JavaScript the interaction. 
 ---
 

@@ -8,7 +8,6 @@ tags:
 - JavaScript
 - GitHub
 - Jekyll
-shortUrl: http://goo.gl/CUJFuB
 series: Ovilia
 excerpt: You can now display pageview information from your Google Analytics in your blog hosted anywhere! No server required. Pure JavaScript. This post introduces how to do it with <a href="https://github.com/googleanalytics/google-analytics-super-proxy" target="_blank">Google Analytics superProxy</a>.
 ---

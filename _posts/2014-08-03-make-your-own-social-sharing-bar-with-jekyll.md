@@ -7,7 +7,6 @@ tags:
 - ShareLink
 - SocialShare
 series: Ovilia
-shortUrl: http://goo.gl/6gu1dr
 excerpt: From time to time do we need a customerized social sharing bar for our blog, for reasons like to harmonize the appearance of the share link with blog. This post talks about how to use Jekyll to generate static links for blog posts, with no JavaScript or anything difficult involved.
 ---
 

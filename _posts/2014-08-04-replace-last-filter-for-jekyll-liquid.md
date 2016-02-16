@@ -7,7 +7,6 @@ tags:
 - Liquid
 - Filter
 - GitHub
-shortUrl: http://goo.gl/tTyFjx
 series: Ovilia
 excerpt: There are only <code>replace</code> and <code>replace-last</code> filter in Liquid gramma. So how can we replace the last character in Jekyll? This post introduces an ad-hoc method to do this, as well as how to make a <em>View Source on GitHub</em> feature.
 ---
