@@ -7,11 +7,11 @@ tags:
 - 三十岁
 - 梦想
 series: 书海泛舟人
-excerpt: 前几天在朋友圈看到许多朋友分享的一篇文章叫做《我才30岁，我把自己杀死了！》[http://mp.weixin.qq.com/s?__biz=MzAxMDE4MjI0OQ==&mid=404156159&idx=2&sn=c574c091e3e3895ded6d3ea85f0bcc90&scene=2&srcid=0318FnZFfENIn3nbJdulKQaJ&from=timeline&isappinstalled=0#wechat_redirect]。很多人都深有同感，我不赞同这个观点，认为太消极，因此写了这篇。
+excerpt: 前几天在朋友圈看到许多朋友分享的一篇文章叫做[《我才30岁，我把自己杀死了！》](http://mp.weixin.qq.com/s?__biz=MzAxMDE4MjI0OQ==&mid=404156159&idx=2&sn=c574c091e3e3895ded6d3ea85f0bcc90&scene=2&srcid=0318FnZFfENIn3nbJdulKQaJ&from=timeline&isappinstalled=0#wechat_redirect)。很多人都深有同感，我不赞同这个观点，认为太消极，因此写了这篇。
 
 ---
 
-> 前几天在朋友圈看到许多朋友分享的一篇文章叫做《我才30岁，我把自己杀死了！》[http://mp.weixin.qq.com/s?__biz=MzAxMDE4MjI0OQ==&mid=404156159&idx=2&sn=c574c091e3e3895ded6d3ea85f0bcc90&scene=2&srcid=0318FnZFfENIn3nbJdulKQaJ&from=timeline&isappinstalled=0#wechat_redirect]。很多人都深有同感，我不赞同这个观点，认为太消极，因此写了这篇。
+> 前几天在朋友圈看到许多朋友分享的一篇文章叫做[《我才30岁，我把自己杀死了！》](http://mp.weixin.qq.com/s?__biz=MzAxMDE4MjI0OQ==&mid=404156159&idx=2&sn=c574c091e3e3895ded6d3ea85f0bcc90&scene=2&srcid=0318FnZFfENIn3nbJdulKQaJ&from=timeline&isappinstalled=0#wechat_redirect)。很多人都深有同感，我不赞同这个观点，认为太消极，因此写了这篇。
 
 ## 1.
 
@@ -212,4 +212,5 @@ excerpt: 前几天在朋友圈看到许多朋友分享的一篇文章叫做《�
 
 我有若许梦想，在渺小中成长。
 
-                                 于公交车上胡诌
+<span style="float:right">于公交车上胡诌</span>
+<br/>
