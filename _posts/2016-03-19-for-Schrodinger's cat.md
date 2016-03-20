@@ -21,13 +21,13 @@ excerpt: 前几天在朋友圈看到许多朋友分享的一篇文章叫做[《�
 
 开始学油画，
 
+<img class="book-img" src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/post/2016-03-19-for-Schrodinger's cat.jpg" />
 每隔两天在朋友圈晒一张，
 
 不是什么名作，
 
 但自得其乐。
 
-<img class="book-img" src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/post/2016-03-19-for-Schrodinger's cat.jpg" />
 你看，我刚才又点了个赞。
 
 ## 2.
