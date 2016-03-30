@@ -10,6 +10,7 @@ tags:
 series: 书海泛舟人
 excerpt: 我们组离职调动较为频繁，尤其是坐在靠窗边角的一个位置上，经常有人呆一段时间就走了。我一直很好奇。直到有一天，我坐到这个位置上发现了这本书。
 ---
+
 <a href="https://book.douban.com/subject/2225735/" target="_blank"><img class="book-img" src="{{ site.loadingImg }}" data-src="https://img3.doubanio.com/lpic/s6495406.jpg" /></a>
 
 这是一本通过讲故事来阐述道理的书，那么我也愿意通过讲故事来对它做书评。
