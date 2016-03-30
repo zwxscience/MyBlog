@@ -34,7 +34,7 @@ Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前从事通信行�
 所以，如果你愿意贡献一份书资的话，weixiang 在这里先行谢过啦！
 
 自2016年2月份开始我娃就来到杭州啦，因此身上多担负了一份奶爸的责任。
-看书的时间也大大减少了，但这并不影响我看书的热情。最后送上一张近期萌娃照吧。
+看书的时间也大大减少了，但这并不影响我看书的热情，我会抽空忙先继续的！最后送上一张近期萌娃照吧。
 
 <img src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/mybaby.jpg" />
 
