@@ -25,7 +25,7 @@ Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前从事通信行�
 <div id="reading-chart" style="height: 400px"></div>
 
 在平时我就喜欢在各个论坛和贴吧上搜书，都存在我的百度网盘上面，大约有<strong class="text-xlarge">200G</strong>的数据量，大都是支持kindle格式的书籍。
-网盘好像对大数据量的分享链接都是很短暂，有需要的话私信或者发邮件给我，我share给你们。
+网盘好像对大数据量的分享链接都是很短暂，有需要的话私信或者发邮件给我，我免费share给你们。
 
 每本书不管好坏，都凝聚了作者的日夜的心血。但是这么多书，我肯定不能全买正版的啊:cry:。
 所以看书时一面抱有很强的负罪感，另一方面暗地安慰自己说就权当借书看了，书非借不能读也。
@@ -33,6 +33,10 @@ Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前从事通信行�
 
 所以，如果你愿意贡献一份书资的话，weixiang 在这里先行谢过啦！
 
+自2016年2月份开始我娃就来到杭州啦，因此身上多担负了一份奶爸的责任。
+看书的时间也大大减少了，但这并不影响我看书的热情。最后送上一张近期萌娃照吧。
+
+<img src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/mybaby.jpg" />
 
 # 打赏方式
 
@@ -109,7 +113,7 @@ Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前从事通信行�
             }, {
                 name: '2016',
                 type: 'bar',
-                data: [5, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                data: [5, 3, 5, 0, 0, 0, 0, 0, 0, 0],
                 itemStyle: {
                     normal: {
                         color: '#D0648A'
