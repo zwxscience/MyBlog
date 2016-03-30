@@ -5,7 +5,7 @@ url: "http://blog.zhangweixiang.com"
 loadingImg: "http://blog.zhangweixiang.com/img/loading.gif"
 filePath: "http://blog.zhangweixiang.com/img/"
 
-timezone: Asia/Hangzhou
+timezone: Asia/Beijing
 
 paginate: 20
 
