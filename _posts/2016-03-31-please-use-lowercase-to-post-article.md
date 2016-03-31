@@ -19,6 +19,6 @@ I have meet somes problems these days when I try to show new article on page aft
 
 eg.You write an article named `2016-03-30-review-Who_Moved_My_Cheese.md` and upload it on github.You will not find it on your pages!
 
-The correct way is rename your article as `2016-03-30-review-who_moved_Myy_cheese.md`.Then you can find it on `http://blog.zhangweixiang.com/2016/03/31/review-who-moved-my-cheese/`.
+The correct way is rename your article as `2016-03-30-review-who_moved_Myy_cheese.md`.Then you can find it on [`http://blog.zhangweixiang.com/2016/03/31/review-who-moved-my-cheese/`](http://blog.zhangweixiang.com/2016/03/31/review-who-moved-my-cheese/).
 
 This really is a gental reminder.
