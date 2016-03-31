@@ -1,6 +1,6 @@
 ---
 title: Please Use Lowercase Words To Name Your Article
-time: 2014.03.31 14:27:57
+time: 2016.03.31 14:27:57
 layout: post
 tags:
 - Lowercase
