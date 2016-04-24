@@ -59,6 +59,7 @@ eg.You write an article named [`2016-04-24-le-voleur-d'ombres.md`](https://githu
 > ---
 
 <img src="{{ site.loadingImg }}" style="max-width: 400px; max-height: 400px;" data-src="http://blog.zhangweixiang.com/img/post/2016-03-31-some-issue-about-showing-correct-article/incorrect.jpg" />
+
 You will see this image below and this article will not shows on page.Notice:there is a space between the title and the tile content.(all is the same format)
 
 So we add the space and the image shows below and this article shows on pages.You can see the title info are formed as a table on github.
