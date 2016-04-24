@@ -30,34 +30,34 @@ The title info is very important on showing page orginzing article content.The g
 eg.You write an article named [`2016-04-24-le-voleur-d'ombres.md`](https://github.com/zwxscience/myblog/edit/gh-pages/_posts/2016-04-24-le-voleur-d'ombres.md) and upload it on github.The title info is:
 
 {% highlight text %}
-> 
-> ---
-> 
-> title:《偷影子的人》：什么样的内心反应什么样的人？
-> 
-> time: 2016.04.24 13:53:57
-> 
-> layout: post
-> 
-> tags:
-> 
-> - 中文
-> 
-> - 书评
-> 
-> - 马克·李维 
-> 
-> - 爱情
-> 
-> - 成长
-> 
-> - 文艺 
-> 
-> series: 书海泛舟人
-> 
-> excerpt: 前几天在杭州万读书群里，突然讨论到这本书，我形容这本书的主题是“前女友被好哥们泡走了”，“吃着碗里的看着锅里的”。顿时引起一位小朋友的愤怒，直斥我“内心看到什么就是什么”，想起来感觉比较有趣，所以发了这篇。
-> 
-> ---
+
+---
+
+title:《偷影子的人》：什么样的内心反应什么样的人？
+
+time: 2016.04.24 13:53:57
+
+layout: post
+
+tags:
+
+- 中文
+
+- 书评
+
+- 马克·李维 
+
+- 爱情
+
+- 成长
+
+- 文艺 
+
+series: 书海泛舟人
+
+excerpt: 前几天在杭州万读书群里，突然讨论到这本书，我形容这本书的主题是“前女友被好哥们泡走了”，“吃着碗里的看着锅里的”。顿时引起一位小朋友的愤怒，直斥我“内心看到什么就是什么”，想起来感觉比较有趣，所以发了这篇。
+
+---
 {% endhighlight %}
 
 <img src="{{ site.loadingImg }}" style="max-width: 400px; max-height: 400px;" data-src="http://blog.zhangweixiang.com/img/post/2016-03-31-some-issue-about-showing-correct-article/incorrect.jpg" />
