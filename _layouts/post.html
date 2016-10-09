@@ -132,7 +132,7 @@
         </ul>
         <a class="button" href="{{ site.url }}/all" onclick="_gaq.push(['_trackEvent', 'ToAllPost', 'InPost', window.location.pathname]);">View All Posts</a></p>
     </blockquote>
-	<p style = "max-width:220px;float: right;margin: 1em 0em 1em 1em;"><span id = "qrshare"></span></p><p>如果觉得还不错，扫描二维码或点击下方链接分享这篇文章吧。  
+	<p style = "max-width:220px;float: right;margin: 1em 0em 1em 1em;"><span id = "qrshare"></span></p><p>感谢每一个认真看完文章的人。  
 	    <div class="social-share" style="margin: 1em 0em 1em 2em;">
         <a class="social-share-element social-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&title={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}&url={{ url }}&source=http%3a%2f%2fzhangweixiang.com" target="_blank" title="Share this post on LinkedIn" onclick="_gaq.push(['_trackEvent', 'Share', 'LinkedIn', window.location.pathname]);"></a>
         <a class="social-share-element social-weibo" href="http://v.t.sina.com.cn/share/share.php?title=来看看+%40开题+的文章吧：{% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}&url={{ url }}{% if page.titleImg != null %}&pic={{ page.titleImg }}{% endif %}" target="_blank" title="Share this post on Sina Weibo" onclick="_gaq.push(['_trackEvent', 'Share', 'Weibo', window.location.pathname]);"></a>
