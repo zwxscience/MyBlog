@@ -1,13 +1,13 @@
 ---
 title: 写给十五个月曦曦
-time: 2016.12.02 16:39:57
+time: 2016.11.20 16:39:57
 layout: post
 tags:
 - 中文
 - 曦曦
 - 十五个月
 series: 云中谁寄锦书来
-excerpt: 写给十五个月曦曦
+excerpt: 眨眼间，曦曦，你已经十五个月了，似乎前两天还在抱怨我们曦曦跌跌撞撞，还不会喊爸爸妈妈，一瞬间你已经能够走路，熟练地叫“爸爸”“妈妈”了。看你迈着小步子走在广场上，小屁股一摇一摆，我心里充满着成就感，原来不经意间我们曦曦已经这么大了。
 ---
 眨眼间，曦曦，你已经十五个月了，似乎前两天还在抱怨我们曦曦跌跌撞撞，还不会喊爸爸妈妈，一瞬间你已经能够走路，熟练地叫“爸爸”“妈妈”了。看你迈着小步子走在广场上，小屁股一摇一摆，我心里充满着成就感，原来不经意间我们曦曦已经这么大了。
 
@@ -27,7 +27,4 @@ excerpt: 写给十五个月曦曦
 
 <img src="{{ site.loadingImg }}" style="max-width: 400px; max-height: 400px;" data-src="http://blog.zhangweixiang.com/img/post/Notes_1440755741481.jpg" />
 
-<span style="float:right">2016年12月02日</span>
-
-<br/>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=25699081&auto=1&height=32"></iframe>
