@@ -27,7 +27,7 @@ excerpt: 写给十五个月曦曦
 
 <img src="{{ site.loadingImg }}" style="max-width: 400px; max-height: 400px;" data-src="http://blog.zhangweixiang.com/img/post/Notes_1440755741481.jpg" />
 
-<span style="float:right">2015年八月24日下午</span>
+<span style="float:right">2016年12月02日</span>
 
 <br/>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=25699081&auto=1&height=32"></iframe>
