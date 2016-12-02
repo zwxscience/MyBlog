@@ -10,7 +10,7 @@ series: 云中谁寄锦书来
 excerpt: 眨眼间，曦曦，你已经十五个月了，似乎前两天还在抱怨我们曦曦跌跌撞撞，还不会喊爸爸妈妈，一瞬间你已经能够走路，熟练地叫“爸爸”“妈妈”了。看你迈着小步子走在广场上，小屁股一摇一摆，我心里充满着成就感，原来不经意间我们曦曦已经这么大了。
 ---
 <div style='margin:0 auto;width:0px;height:0px;overflow:hidden;'>
-<img src="http://blog.zhangweixiang.com/img/post/2016-11-20-to-fifteen-months-my-son/mmexport1480659964890.jpg" width='700'>
+<img src="http://blog.zhangweixiang.com/img/post/2016-11-20-to-fifteen-months-my-son/mmexport1480659964890.jpg" title="微信分享缩略图" width='700'>
 </div>
 眨眼间，曦曦，你已经十五个月了，似乎前两天还在抱怨我们曦曦跌跌撞撞，还不会喊爸爸妈妈，一瞬间你已经能够走路，熟练地叫“爸爸”“妈妈”了。看你迈着小步子走在广场上，小屁股一摇一摆，我心里充满着成就感，原来不经意间我们曦曦已经这么大了。
 
