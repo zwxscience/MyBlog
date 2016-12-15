@@ -113,7 +113,7 @@ Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前从事通信行�
             }, {
                 name: '2016',
                 type: 'bar',
-                data: [5, 3, 5, 0, 0, 0, 0, 0, 0, 0],
+                data: [5, 3, 5, 4, 3, 4,5, 3, 4,2,3],
                 itemStyle: {
                     normal: {
                         color: '#D0648A'
