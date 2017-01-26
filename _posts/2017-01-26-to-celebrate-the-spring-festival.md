@@ -10,7 +10,7 @@ series: 桃源望断无寻处
 excerpt: 明月他乡易见，故友此地难逢。料峭春风桂子落，烟雨梅花寒。多少意气相投，转眼低头成空。浮生奔忙十一年，旧交今何在？黄粱梦里认归园。
 ---
 <div style='margin:0 auto;width:0px;height:0px;overflow:hidden;'>
-<img src="http://blog.zhangweixiang.com/img/post/2016-11-20-to-fifteen-months-my-son/mmexport1478609683828.jpg" title="微信分享缩略图" width='700'>
+<img src="http://blog.zhangweixiang.com/img/post/2017-01-26-to-celebrate-the-spring-festival.jpg" title="微信分享缩略图" width='700'>
 </div>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=18671418&auto=1&height=32"></iframe>
 今天是2017年1月26日，明天就是除夕，而我还没有回老家。
