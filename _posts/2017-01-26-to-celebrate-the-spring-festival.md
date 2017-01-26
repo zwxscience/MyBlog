@@ -12,7 +12,7 @@ excerpt: 明月他乡易见，故友此地难逢。料峭春风桂子落，烟�
 <div style='margin:0 auto;width:0px;height:0px;overflow:hidden;'>
 <img src="http://blog.zhangweixiang.com/img/post/2016-11-20-to-fifteen-months-my-son/mmexport1478609683828.jpg" title="微信分享缩略图" width='700'>
 </div>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=540470&auto=0&height=32"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=18671418auto=1&height=32"></iframe>
 今天是2017年1月26日，明天就是除夕，而我还没有回老家。
 
 因为孩子还小，因为父母在这边，因为我还知道，即使不回去，也能从网络上看到家乡的里那些熟知的人，即使回去，也找不到往昔的年味了。
@@ -31,7 +31,7 @@ excerpt: 明月他乡易见，故友此地难逢。料峭春风桂子落，烟�
 
 自从毕业后，回家次数屈指可数，每次多是回家过年。因为隔得时间越长，所以会觉得家乡的变化越大，隔阂越深。和那些儿时的玩伴，多是回忆儿时的游戏，话题越来越少，最终一声叹息。现在回家过年，只有寥寥几天，多是打牌度日，即使是在一个屋子里，也是一边磕着瓜子，一边看着手机，寡淡无味。也许再过许多年，村里的老人渐渐故去，新人渐渐起来，故乡终究会换个模样。年深外境犹吾景,日久他乡即故乡。
 
-未曾想到在离开家乡的几年以后，会来到这么一个地方定居过年，渔樵耕读千载淳风,春夏秋冬四时皆景。我有了自己的家庭，每天吃得越来越好，然而那些记忆中儿时的人，那些年的味道，如今却怎么也得不到了。只有偶尔在梦里，会有这么一个地方，有这么一段时光。
+未曾想到在离开家乡的几年以后，会来到这么一个地方定居过年，渔樵耕读千载淳风,春夏秋冬四时皆景。我有了自己的家庭，每天吃得越来越好，然而那些记忆中儿时的心情，那些过年的味道，如今却怎么也得不到了。只有偶尔在梦里，会有这么一个地方，有这么一段时光。
 
 何止家乡变了呢，其实我也早已变了。
 
