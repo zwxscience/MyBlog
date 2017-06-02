@@ -11,7 +11,7 @@ series: 麦穗初齐稚子娇
 excerpt: 曦曦，儿童节快乐！曦曦，早日康复！
 ---
 <div style='margin:0 auto;width:0px;height:0px;overflow:hidden;'>
-<img src="http://blog.zhangweixiang.com/img/post/2017-01-26-to-celebrate-the-spring-festival.jpg" title="微信分享缩略图" width='700'>
+<img src="http://blog.zhangweixiang.com/img/post/2017-06-01-to-happy-children's-day.jpg" title="微信分享缩略图" width='700'>
 </div>
 
 Hi，曦曦，儿童节快乐，祝你早日康复。
