@@ -8,12 +8,12 @@ tags:
 - 住院
 - 高烧
 series: 麦穗初齐稚子娇
-excerpt: 明月他乡易见，故友此地难逢。料峭春风桂子落，烟雨梅花寒。多少意气相投，转眼低头成空。浮生奔忙十一载，旧交今何在？黄粱梦里不孤鸿。
+excerpt: 曦曦，儿童节快乐！曦曦，早日康复！
 ---
 <div style='margin:0 auto;width:0px;height:0px;overflow:hidden;'>
 <img src="http://blog.zhangweixiang.com/img/post/2017-01-26-to-celebrate-the-spring-festival.jpg" title="微信分享缩略图" width='700'>
 </div>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=18671418&auto=1&height=32"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=18671418&auto=0&height=32"></iframe>
 今天是2017年1月26日，明天就是除夕，而我还没有回老家。
 
 因为孩子还小，因为父母在这边，因为我还知道，即使不回去，也能从网络上看到家乡的里那些熟知的人，即使回去，也找不到往昔的年味了。
