@@ -14,6 +14,7 @@ excerpt: 曦曦，儿童节快乐！曦曦，早日康复！
 <img src="http://blog.zhangweixiang.com/img/post/2017-01-26-to-celebrate-the-spring-festival.jpg" title="微信分享缩略图" width='700'>
 </div>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=18671418&auto=1&height=32"></iframe>
+
 Hi，曦曦，儿童节快乐，祝你早日康复。
 
 为什么要这么说呢，因为你这两天又发烧了，一度烧到40度，虽然没有上一次严重，但是也把爸爸妈妈吓的够呛。昨天虽然去儿保那里抽血化验，找医生开药，但是昨晚你的体温仍然时高时低，妈妈不放心，今天又带着你去省中医去看了下。医生说没事，是普通流感，然后又开了一堆药。曦曦，你要好好吃药啊，如果不退烧的话，明天又要打针针了。今天是儿童节，妈妈回来路上给你买了个小迷宫玩具，祝你更加聪明伶俐。
