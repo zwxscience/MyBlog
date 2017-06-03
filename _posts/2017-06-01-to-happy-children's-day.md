@@ -52,5 +52,5 @@ Hi，曦曦，儿童节快乐，祝你早日康复。
 
 好像也写得挺多了，曦曦，生病也好，交际也好，这些都不过是你以后遇到的各种问题的忽微。给你起名叫曦曦，就是希望在你遇到各种挫折时，能够振奋精神，在暗淡的晨曦中，找到通往彩虹的道路。有人说，父母之爱其实是一种能力，而能力是需要通过练习来掌握的。人类最大的荒诞在于，明明我们没有丝毫权利选择我们的父母，而无论他们如何作为，我们都会被要求对此心存感激。曦曦，爸爸妈妈现在以及将来对你的养育以及教育，只为参与你的成长，能把你引导于正确的道路上，希望我们现在以及以后的行为，能通过不断的练习与纠错，让我们成为一个合格的父母吧。
  
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=432506345&auto=1&height=66"></iframe>
+<embed src="//music.163.com/style/swf/widget.swf?sid=432506345&type=2&auto=1&width=320&height=66" width="340" height="86"  allowNetworking="all"></embed>
  
