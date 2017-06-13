@@ -127,7 +127,7 @@ Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前从事通信行�
                 trigger: 'value'
             },
             legend: {
-                data:['2015', '2016']
+                data:['2015', '2016', '2017']
             },
             grid: {
                 x: 40,
