@@ -195,6 +195,28 @@ Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前从事通信行�
                     data: [{
                         type: 'average',
                         name: '平均值'
+                    }, {
+                name: '2017',
+                type: 'bar',
+                data: [3,3, 2, 4, 3, 0,0, 0, 0,0,0],
+                itemStyle: {
+                    normal: {
+                        color: '#3070d0'
+                    }
+                },
+                markPoint: {
+                    data: [{
+                        type: 'max', 
+                        name: '最大值'
+                    }, {
+                        type: 'min',
+                        name: '最小值'
+                    }]
+                },
+                markLine: {
+                    data: [{
+                        type: 'average',
+                        name: '平均值'
                     }]
                 }
             }]
