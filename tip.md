@@ -119,7 +119,7 @@ Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前从事通信行�
 
 
 <script type="text/javascript">
-    var loadJs = [['{{ site.url }}/js/echarts-all.js', function() {
+ var loadJs = [['{{ site.url }}/js/echarts-all.js', function() {
         // init echarts
         var chart = echarts.init($('#reading-chart')[0]);
         chart.setOption({
@@ -176,7 +176,7 @@ Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前从事通信行�
             }, {
                 name: '2016',
                 type: 'bar',
-                data: [5, 3, 5, 4, 3, 4,5, 3, 4,2,3],
+                data: [5, 3, 5, 4, 3, 4,5, 3, 4,2,3,3],
                 itemStyle: {
                     normal: {
                         color: '#3c78d8'
@@ -195,13 +195,15 @@ Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前从事通信行�
                     data: [{
                         type: 'average',
                         name: '平均值'
-                    }, {
-                name: '2017',
+                    }]
+                }
+            }, {
+                name: '2017',
                 type: 'bar',
-                data: [3,3, 2, 4, 3, 0,0, 0, 0,0,0],
+                data: [3, 3, 2, 4, 3, 0,0, 0, 0,0,0,0],
                 itemStyle: {
                     normal: {
-                        color: '#3070d0'
+                        color: '#FFEC8B'
                     }
                 },
                 markPoint: {
@@ -219,7 +221,8 @@ Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前从事通信行�
                         name: '平均值'
                     }]
                 }
-            }]
+            }//end of last year
+            ]
         });
 
         $(window).resize(chart.resize);
