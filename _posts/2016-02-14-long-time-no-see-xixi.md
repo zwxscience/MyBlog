@@ -10,8 +10,13 @@ series: 云中谁寄锦书来
 excerpt: 在家没时间写这些，回到杭州才有空总结一下。情人节快乐，我的儿子。那个圆滚滚，肉乎乎，萌哒哒的小娃娃，现在已经满半岁了。
 
 ---
-
+<div style='margin:0 auto;overflow:hidden;display:none' id='music'>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=1374348&auto=1&height=32"></iframe>
+</div>
+<script type="text/javascript">
+setTimeout(function(){$("#music").show().html("<iframe frameborder='no' border='0' marginwidth='0' marginheight='0' width=298 height=52 src='http://music.163.com/outchain/player?type=2&id=1374348&auto=0&height=32'></iframe>")}, 1000);
+
+</script>
 
 腊月二十五，回家过年。
 
