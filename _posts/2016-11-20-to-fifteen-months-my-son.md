@@ -12,7 +12,14 @@ excerpt: 眨眼间，曦曦，你已经十五个月了，似乎前两天还在�
 <div style='margin:0 auto;width:0px;height:0px;overflow:hidden;'>
 <img src="http://blog.zhangweixiang.com/img/post/2016-11-20-to-fifteen-months-my-son/mmexport1478609683828.jpg" title="微信分享缩略图" width='700'>
 </div>
+
+<div style='margin:0 auto;overflow:hidden;display:none' id='music'>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=540470&auto=0&height=32"></iframe>
+</div>
+<script type="text/javascript">
+setTimeout(function(){$("#music").show().html("<iframe frameborder='no' border='0' marginwidth='0' marginheight='0' width=298 height=52 src='http://music.163.com/outchain/player?type=2&id=540470&auto=0&height=32'></iframe>")}, 1000);
+
+</script>
 眨眼间，曦曦，你已经十五个月了，似乎前两天还在抱怨我们曦曦跌跌撞撞，还不会喊爸爸妈妈，一瞬间你已经能够走路，熟练地叫“爸爸”“妈妈”了。看你迈着小步子走在广场上，小屁股一摇一摆，我心里充满着成就感，原来不经意间我们曦曦已经这么大了。
 
 慢慢感觉到你越来越会表达自己的情感了，躺在小伞车上时会给我们指路，遇到自己不会操作的新东西时会主动拿起爸爸妈妈的手要求帮忙，生气时也会大声吼人了，甚至摔倒了，也会装模作样地作势打几下。爷爷奶奶喂饭时会很开心地吃东西，会在爷爷奶奶收玩具时你一边扔。会刷牙，会鼓掌，会拍手，会拜拜，特别喜欢洗澡澡。会和爸爸做游戏，模仿爸爸，会察言观色，看到爸爸不开心会挤眉弄眼的逗爸爸。更会跟别人分享，每当你吃饼干看到爸爸想要时，你会主动的把手里的饼干送到爸爸嘴里。会学着大人的模样拖地，刷碗。当然也有调皮的时候，不如意时也会哇哇大哭，也还不能分清力道的轻重，害怕理发器的声音，还会尿爸爸妈妈一身。
