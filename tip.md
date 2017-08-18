@@ -109,7 +109,7 @@ Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前从事通信行�
 
 ## 方法二：支付宝扫一扫
 
-<img src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/zhifubao.jpg" />
+<img src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/zhifubao.jpg" style="max-width: 500px;"/>
 
 ## 方法三：转账到我的支付宝账号
 
