@@ -108,7 +108,7 @@ LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
                     // processPageView(data.rows);
                 // },
                 // error: function() {
-                    if fail to get up-to-date data from GAE, get cached local version
+                    //if fail to get up-to-date data from GAE, get cached local version
                     // console.log('Failed to get page view from GAE!,Now read from my site.');
                     // $.ajax({
                         // url: 'http://www.zhangweixiang.com/visitinfo.ashx',
