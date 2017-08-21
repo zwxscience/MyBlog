@@ -46,7 +46,7 @@ function processPageView(rows) {
     });
 }
 function processPageViewOri(data) {
-    if (rows === undefined) {
+    if (data === undefined) {
         return;
     }
     $('.post-block').each(function() {
