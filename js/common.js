@@ -127,6 +127,8 @@ LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
 			url: 'http://www.zhangweixiang.com/visitinfo.ashx',
 			dataType: 'jsonp',
 			timeout: 1000 * 3, // 3 sec
+			jsonp: "callback",  
+    			jsonpCallback: "jsonpCallback",
 			success: function(data) {
 				processPageViewOri(data);
 			},
