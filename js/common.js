@@ -45,6 +45,35 @@ function processPageView(rows) {
         }
     });
 }
+function processPageViewOri(data) {
+    if (rows === undefined) {
+        return;
+    }
+    $('.post-block').each(function() {
+        var myPath = $(this).children('h2').children('a').attr('href');
+        if (myPath) {
+            myPath = myPath.slice('http://blog.zhangweixiang.com'.length);
+            var len = 1000;//rows.length;
+            var cnt = 0;
+            for (var i = 0; i < len; ++i) {
+                //var thatPath = rows[i][0];
+                //var queryId = thatPath.indexOf('?');
+                //var mainPath = queryId >= 0 ? thatPath.slice(0, queryId) : thatPath;
+		var thatPath = myPath;
+                if (thatPath === myPath || mainPath === myPath 
+                        || mainPath === myPath + 'index.html' 
+                        || myPath === mainPath + 'index.html') {
+                    cnt += parseInt(data);
+                }
+            }
+            if ($(this).hasClass('cn')) {
+                $(this).append('<div class="view-cnt">（' + cnt + ' 人已阅）</div>');
+            } else {
+                $(this).append('<div class="view-cnt">(' + cnt + ' viewed)</div>');
+            }
+        }
+    });
+}
 
 LazyLoad.css('/css/font.css');
 
@@ -80,13 +109,13 @@ LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
                 },
                 error: function() {
                     // if fail to get up-to-date data from GAE, get cached local version
-                    console.log('Failed to get page view from GAE!');
+                    console.log('Failed to get page view from GAE!,Now read from my site.');
                     $.ajax({
-                        url: '/pageview.json',
-                        dataType: 'json',
+                        url: 'http://zhangweixiang.com/visitinfo.ashx?',
+                        dataType: 'jsonp',
                         success: function(data) {
-                            console.log('Local page view used.');
-                            processPageView(data.rows);
+                            console.log('Local site view used.');
+                            processPageViewOri(data);
                         }
                     })
                 }
