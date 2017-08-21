@@ -130,8 +130,9 @@ LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
 			success: function(data) {
 				processPageViewOri(data.rows);
 			},
-			error: function() {
-				// if fail to get up-to-date data from GAE, get cached local version
+			error: function(xhr,status,error) {
+				// if fail to get up-to-date data from mysite, get cached local version
+				console.log(xhr);
 				console.log('Failed to get page view from my site!');	
 			}
 		});	
