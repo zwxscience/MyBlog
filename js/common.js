@@ -63,7 +63,7 @@ function processPageViewOri(data) {
                 if (thatPath === myPath || mainPath === myPath 
                         || mainPath === myPath + 'index.html' 
                         || myPath === mainPath + 'index.html') {
-                    cnt += parseInt(data);
+                    cnt = parseInt(data);
                 }
             }
             if ($(this).hasClass('cn')) {
