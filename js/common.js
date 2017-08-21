@@ -128,7 +128,7 @@ LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
 			dataType: 'jsonp',
 			timeout: 1000 * 3, // 3 sec
 			success: function(data) {
-				processPageViewOri(data.rows);
+				processPageViewOri(data);
 			},
 			error: function(xhr,status,error) {
 				// if fail to get up-to-date data from mysite, get cached local version
