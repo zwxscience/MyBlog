@@ -100,29 +100,41 @@ LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
 
         // google pageview
         setTimeout(function() {
-            $.ajax({
-                url: 'https://www.googleapis.com/analytics/v3/data/ga?ids=ga%3A115361882&start-date=30daysAgo&end-date=today&metrics=ga%3Ausers&dimensions=ga%3ApagePath&access_token=ya29.dQIsAydlmvSGHbfYDgHG14gjLIxzaaO4YAlR7YuMIayeaK6T-Uf4hPDvp9_0SGEYxGeX',
-                dataType: 'jsonp',
-                timeout: 1000 * 3, // 3 sec
-                success: function(data) {
-                    processPageView(data.rows);
-                },
-                error: function() {
-                    // if fail to get up-to-date data from GAE, get cached local version
-                    console.log('Failed to get page view from GAE!,Now read from my site.');
-                    $.ajax({
-                        url: 'http://www.zhangweixiang.com/visitinfo.ashx',
-                        dataType: 'jsonp',
-                        success: function(data) {
-                            console.log('Local site view used.');
-                            processPageViewOri(data);
-                        },
+             // $.ajax({
+                // url: 'https://www.googleapis.com/analytics/v3/data/ga?ids=ga%3A115361882&start-date=30daysAgo&end-date=today&metrics=ga%3Ausers&dimensions=ga%3ApagePath&access_token=ya29.dQIsAydlmvSGHbfYDgHG14gjLIxzaaO4YAlR7YuMIayeaK6T-Uf4hPDvp9_0SGEYxGeX',
+                // dataType: 'jsonp',
+                // timeout: 1000 * 3, // 3 sec
+                // success: function(data) {
+                    // processPageView(data.rows);
+                // },
+                // error: function() {
+                    if fail to get up-to-date data from GAE, get cached local version
+                    // console.log('Failed to get page view from GAE!,Now read from my site.');
+                    // $.ajax({
+                        // url: 'http://www.zhangweixiang.com/visitinfo.ashx',
+                        // dataType: 'jsonp',
+                        // success: function(data) {
+                            // console.log('Local site view used.');
+                            // processPageViewOri(data);
+                        // },
+			// error: function() {
+			   // console.log('Failed to get page view from my site!');
+		    // }
+                    // })
+                // }
+            // });
+		 $.ajax({
+			url: 'http://www.zhangweixiang.com/visitinfo.ashx',
+			dataType: 'jsonp',
+			timeout: 1000 * 3, // 3 sec
+			success: function(data) {
+				processPageViewOri(data.rows);
+			},
 			error: function() {
-			   console.log('Failed to get page view from my site!');
-		    }
-                    })
-                }
-            });
+				// if fail to get up-to-date data from GAE, get cached local version
+				console.log('Failed to get page view from my site!');	
+			}
+		});	
         }, 2000);
     });
 
