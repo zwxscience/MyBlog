@@ -1,6 +1,7 @@
 setTimeout(function() {
-	     var queryId = window.location.pathname.indexOf('?');
-         var mainPath = queryId >= 0 ? window.location.pathname.slice(0, queryId) : window.location.pathname;
+	var queryId = window.location.pathname.indexOf('?');
+	var mainPath = queryId >= 0 ? window.location.pathname.slice(0, queryId) : window.location.pathname;
+	mainPath = mainPath == "/"? window.location.href:mainPath;//frontPage
 		 $.ajax({
 			url: 'http://www.zhangweixiang.com/visitinfo.ashx?url='+mainPath,
 			dataType: 'jsonp',
