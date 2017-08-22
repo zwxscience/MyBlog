@@ -28,13 +28,14 @@ function processPageView(rows) {
             var len = rows.length;
             var cnt = 0;
             for (var i = 0; i < len; ++i) {
-                var thatPath = rows[i][0];
+				if(rows[i].Page === null) continue;
+                var thatPath = rows[i].Page["@URL"];
                 var queryId = thatPath.indexOf('?');
                 var mainPath = queryId >= 0 ? thatPath.slice(0, queryId) : thatPath;
                 if (thatPath === myPath || mainPath === myPath 
                         || mainPath === myPath + 'index.html' 
                         || myPath === mainPath + 'index.html') {
-                    cnt += parseInt(rows[i][1]);
+                    cnt += parseInt(rows[i].Page["@visitCount"]);
                 }
             }
             if ($(this).hasClass('cn')) {
