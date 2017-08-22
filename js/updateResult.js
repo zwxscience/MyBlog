@@ -1,6 +1,8 @@
 setTimeout(function() {
+	     var queryId = window.location.pathname.indexOf('?');
+         var mainPath = queryId >= 0 ? window.location.pathname.slice(0, queryId) : window.location.pathname;
 		 $.ajax({
-			url: 'http://www.zhangweixiang.com/visitinfo.ashx?url='+window.location.pathname,
+			url: 'http://www.zhangweixiang.com/visitinfo.ashx?url='+mainPath,
 			dataType: 'jsonp',
 			timeout: 1000 * 3, // 3 sec
 			jsonp: "callback",  
