@@ -18,7 +18,7 @@ function toggleMusicPanel() {
 }
 
 function processPageView(rows) {
-    if (rows === undefined) {
+    if (rows == undefined) {
         return;
     }
     $('.post-block').each(function() {
@@ -47,7 +47,7 @@ function processPageView(rows) {
     });
 }
 function processPageViewOri(data) {
-    if (data === undefined) {
+    if (data == undefined) {
         return;
     }
     $('.post-block').each(function() {
