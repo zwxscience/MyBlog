@@ -46,35 +46,7 @@ function processPageView(rows) {
         }
     });
 }
-function processPageViewOri(data) {
-    if (data == undefined) {
-        return;
-    }
-    $('.post-block').each(function() {
-        var myPath = $(this).children('h2').children('a').attr('href');
-        if (myPath) {
-            myPath = myPath.slice('http://blog.zhangweixiang.com'.length);
-            var len = 1000;//rows.length;
-            var cnt = 0;
-            for (var i = 0; i < len; ++i) {
-                //var thatPath = rows[i][0];
-                //var queryId = thatPath.indexOf('?');
-                //var mainPath = queryId >= 0 ? thatPath.slice(0, queryId) : thatPath;
-		var thatPath = myPath;
-                if (thatPath === myPath || mainPath === myPath 
-                        || mainPath === myPath + 'index.html' 
-                        || myPath === mainPath + 'index.html') {
-                    cnt = parseInt(data);
-                }
-            }
-            if ($(this).hasClass('cn')) {
-                $(this).append('<div class="view-cnt">（' + cnt + ' 人已阅）</div>');
-            } else {
-                $(this).append('<div class="view-cnt">(' + cnt + ' viewed)</div>');
-            }
-        }
-    });
-}
+
 
 LazyLoad.css('/css/font.css');
 
@@ -131,7 +103,7 @@ LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
 			jsonp: "callback",  
     			jsonpCallback: "jsonpCallback",
 			success: function(data) {
-				processPageViewOri(data);
+				processPageView(data);
 			},
 			error: function(xhr,status,error) {
 				// if fail to get up-to-date data from mysite, get cached local version
