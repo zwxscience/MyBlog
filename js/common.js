@@ -125,7 +125,7 @@ LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
                 // }
             // });
 		 $.ajax({
-			url: 'http://www.zhangweixiang.com/visitinfo.ashx',
+			url: 'http://www.zhangweixiang.com/visitInfo.ashx?method=get',
 			dataType: 'jsonp',
 			timeout: 1000 * 3, // 3 sec
 			jsonp: "callback",  
