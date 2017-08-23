@@ -68,7 +68,9 @@ LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
         });
     }
     else
-    {
+    {	
+	if( $("#contentDiv .relatedPosts").length > 0)
+	{
 	$(window).scroll(function() {
     	var baselength = $("#contentDiv .relatedPosts").offset().top - $(window).height();
 	if(baselength > 0)
@@ -89,6 +91,7 @@ LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
 		}		
 	}
  	});
+	}
     }
 
     LazyLoad.js('/js/unviel.min.js', function () {
