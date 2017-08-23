@@ -70,14 +70,20 @@ LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
     else
     {
 	$(window).scroll(function() {
-    	var baselength = $("#contentDiv .relatedPosts").offset().top - $(window).height()-$("#page-view").offset().top;
+    	var baselength = $("#contentDiv .relatedPosts").offset().top - $(window).height();
 	if(baselength > 0)
 	{
 		var percent = parseFloat($(document).scrollTop()*100/(baselength)).toFixed(1);
 		percent = percent >100 ? 100:percent;
 		if($("#progress").length > 0) {
 			//元素存在时执行的代码
-		$("#progress").html(percent+"% 已阅");
+			if(percent<0.001)
+			{
+				$("#progress").hide();
+			}else
+			{
+				$("#progress").html(percent+"% 已阅").fadeIn();
+			}
 		}else{
 		$("#mobile-nav").append("<span id='progress' class = 'progress'>"+percent+"% 已阅</span>");
 		}		
