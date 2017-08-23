@@ -69,7 +69,7 @@ LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
     }
     else
     {
-	$("#contentDiv").scroll(function() {
+	$(window).scroll(function() {
     	var baselength = $("#contentDiv .relatedPosts").offset().top - $(window).height()-$("#page-view").offset().top;
 	if(baselength > 0)
 	{
