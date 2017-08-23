@@ -32,9 +32,9 @@ function processPageView(rows) {
                 var thatPath = rows[i].Page["@URL"];
                 var queryId = thatPath.indexOf('?');
                 var mainPath = queryId >= 0 ? thatPath.slice(0, queryId) : thatPath;
-                if (thatPath === myPath || mainPath === myPath 
+                if ((thatPath === myPath || mainPath === myPath 
                         || mainPath === myPath + 'index.html' 
-                        || myPath === mainPath + 'index.html') {
+                        || myPath === mainPath + 'index.html')&&rows[i].Page["@visitCount"] != null) {
                     cnt += parseInt(rows[i].Page["@visitCount"]);
                 }
             }
