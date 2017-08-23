@@ -67,6 +67,23 @@ LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
             $('.timeago').timeago().show();
         });
     }
+    else
+    {
+	$("#contentDiv").scroll(function() {
+    	var baselength = $("#contentDiv .relatedPosts").offset().top - $(window).height()-$("#page-view").offset().top;
+	if(baselength > 0)
+	{
+		var percent = parseFloat($(document).scrollTop()*100/(baselength)).toFixed(1);
+		percent = percent >100 ? 100:percent;
+		if($("#progress").length > 0) {
+			//元素存在时执行的代码
+		$("#progress").html(percent+"% 已阅");
+		}else{
+		$("#mobile-nav").append("<span id='progress' class = 'progress'>"+percent+"% 已阅</span>");
+		}		
+	}
+ 	});
+    }
 
     LazyLoad.js('/js/unviel.min.js', function () {
         $("img").unveil();
