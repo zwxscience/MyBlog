@@ -57,7 +57,7 @@ setTimeout(function() {
 			}
 		});	
 		
-
+		dealvisitCount();
         }, 1000);
 });
 
