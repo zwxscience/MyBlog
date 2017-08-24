@@ -25,7 +25,7 @@ function processPageView(rows) {
         var myPath = $(this).children('h2').children('a').attr('href');
         if (myPath) {
             myPath = myPath.slice('http://blog.zhangweixiang.com'.length);
-            var cnt = getVisitCount(rows,mypath);
+            var cnt = getVisitCount(rows,myPath);
             if ($(this).hasClass('cn')) {
                 $(this).append('<div class="view-cnt">（' + cnt + ' 人已阅）</div>');
             } else {
@@ -35,7 +35,7 @@ function processPageView(rows) {
     });
 }
 
-function getVisitCount(rows,mypath)
+function getVisitCount(rows,myPath)
 {
             var len = rows.length;
             var cnt = 0;
