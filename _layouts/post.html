@@ -42,8 +42,7 @@
     {% if page.titleImg != null %}<img class="post-title-img" src="{{ site.url }}{{ page.titleImg }}" />{% endif %}
 
 
-	<!-- Temporarily canceled -->
-    <!--{% include license.html %}-->
+
 
 
 
@@ -51,10 +50,7 @@
     {{ content }}
     {% if page.postClass != null %}</div>{% endif %}
 	
-	<!-- Temporarily canceled -->
-   <!-- {% if page.series %}
-        {% include series.html %}
-    {% endif %}-->
+
 
     {% assign tagStr = '' %}
     {% capture url %}{{ site.url }}{{ page.url }}{% endcapture %}
@@ -68,9 +64,7 @@
         {% endfor %}
     {% endif %}
     <hr />
-    <!-- Temporarily canceled -->
-    <!--<p class="no-indent"><a href="{{ site.url }}/tip/" onclick="_gaq.push(['_trackEvent', 'ToTip', 'InPost', window.location.pathname]);">觉得文章很赞？来打赏一下我吧！——送 weixiang 一本书，让他写出更棒的文章！:heart_eyes: </a></p>-->
-    
+
 
     <blockquote class="relatedPosts">
         {% assign hasSimilar = '' %}
