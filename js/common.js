@@ -156,7 +156,7 @@ LazyLoad.js('/js/jquery.min.js', function () {
 			}
 			else
 			{
-				$("#pageview").fadeOut();
+				$("#pageview").fadeOut("fast");
 			}
 
 		}
