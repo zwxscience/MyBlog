@@ -55,7 +55,7 @@ setTimeout(function() {
 				console.log('Failed to get page view from my site!');	
 			}
 		});	
-		setInterval ("dealvisitCount()", 3000);
+		setInterval ("dealvisitCount", 3000);
 
         }, 1000);
 });
