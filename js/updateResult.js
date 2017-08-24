@@ -18,6 +18,25 @@ setTimeout(function() {
 			}
 		});	
 		setInterval ("getvisitCount()", 3000);
+		function getvisitCount()
+		{
+				 $.ajax({
+					url: 'http://www.zhangweixiang.com/visitInfo.ashx?method=get&from=blog',
+					dataType: 'jsonp',
+					timeout: 1000 * 3, // 3 sec
+					jsonp: "callback",  
+						jsonpCallback: "jsonpCallback",
+					success: function(data) {
+						processSinglePage(data);
+					},
+					error: function(xhr,status,error) {
+						// if fail to get up-to-date data from mysite, get cached local version
+						console.log(xhr);
+						console.log('Failed to get page view from my site!');	
+					}
+				});	
+		}
+
 		var pagecnt = 0;
 		function processSinglePage(rows) {
 			if (rows == undefined) {
