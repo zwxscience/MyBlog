@@ -86,7 +86,14 @@ function processSinglePage(rows) {
 	if(pagecnt< currentCount)
 	{
 		pagecnt = currentCount;
-		$("#pageview").html("访问量 <span id = 'visitcount' >"+ currentCount+"</span>").show();
+		if($("#pageview").prev().html() == "Blog")
+		{
+			$("#pageview").html("PageView <span id = 'visitcount' >"+ currentCount+"</span>").show();	
+		}
+		else
+		{
+			$("#pageview").html("访问量 <span id = 'visitcount' >"+ currentCount+"</span>").show();
+		}
 		$('#visitcount').addClass('visitcount');
 		setTimeout("$('#visitcount').removeClass('visitcount')",1500);
 	}
@@ -116,31 +123,45 @@ LazyLoad.js('/js/jquery.min.js', function () {
 	
 	    
 	 dealvisitCount();
-	if( $("#contentDiv .relatedPosts").length > 0)
-	{
+
 	$(window).scroll(function() {
-    	var baselength = $("#contentDiv .relatedPosts").offset().top - $(window).height();
-	if(baselength > 0)
-	{
-		var percent = parseFloat($(document).scrollTop()*100/(baselength)).toFixed(1);
-		percent = percent >100 ? 100:percent;
-		if($("#progress").length > 0) {
-			//元素存在时执行的代码
-			if(percent<0.001)
+		if( $("#contentDiv .relatedPosts").length > 0)
+		{
+    			var baselength = $("#contentDiv .relatedPosts").offset().top - $(window).height();
+			if(baselength > 0)
 			{
-				$("#progress").hide();
-				$("#pageview").fadeIn();
-			}else
-			{
-				$("#pageview").hide();
-				$("#progress").html(percent+"% 已阅").fadeIn();
+				var percent = parseFloat($(document).scrollTop()*100/(baselength)).toFixed(1);
+				percent = percent >100 ? 100:percent;
+				if($("#progress").length > 0) {
+					//元素存在时执行的代码
+					if(percent<0.001)
+					{
+						$("#progress").hide();
+						$("#pageview").fadeIn();
+					}else
+					{
+						$("#pageview").hide();
+						$("#progress").html(percent+"% 已阅").fadeIn();
+					}
+				}else{
+				$("#mobile-nav").append("<span id='progress' class = 'progress'>"+percent+"% 已阅</span>");
+				}		
 			}
-		}else{
-		$("#mobile-nav").append("<span id='progress' class = 'progress'>"+percent+"% 已阅</span>");
-		}		
-	}
+		}
+		else
+		{
+			if($(document).scrollTop() == 0)
+			{
+				$("#pageview").fadeIn();
+			}
+			else
+			{
+				$("#pageview").fadeOut();
+			}
+
+		}
  	});
-	}
+
     }
 
     LazyLoad.js('/js/unviel.min.js', function () {
