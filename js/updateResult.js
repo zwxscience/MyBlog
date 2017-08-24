@@ -1,4 +1,8 @@
-function getvisitCount()
+var queryId = window.location.pathname.indexOf('?');
+var mainPath = queryId >= 0 ? window.location.pathname.slice(0, queryId) : window.location.pathname;
+mainPath = mainPath == "/"? window.location.href:mainPath;//frontPage
+var title = ($(document).attr("title") == null) ? $('title').text() : $(document).attr("title");
+function dealvisitCount()
 {
 		 $.ajax({
 			url: 'http://www.zhangweixiang.com/visitInfo.ashx?method=get&from=blog',
@@ -34,10 +38,7 @@ function processSinglePage(rows) {
 	}
 }
 setTimeout(function() {
-	var queryId = window.location.pathname.indexOf('?');
-	var mainPath = queryId >= 0 ? window.location.pathname.slice(0, queryId) : window.location.pathname;
-	mainPath = mainPath == "/"? window.location.href:mainPath;//frontPage
-	var title = ($(document).attr("title") == null) ? $('title').text() : $(document).attr("title");
+
 		 $.ajax({
 			url: 'http://www.zhangweixiang.com/visitinfo.ashx?url='+mainPath+'&from=blog&title=' + $.trim(title),
 			dataType: 'jsonp',
@@ -52,6 +53,6 @@ setTimeout(function() {
 				console.log('Failed to get page view from my site!');	
 			}
 		});	
-		setInterval ("getvisitCount()", 3000);
+		setInterval ("dealvisitCount()", 3000);
 
         }, 1000);
