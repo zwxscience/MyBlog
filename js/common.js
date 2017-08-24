@@ -95,7 +95,7 @@ function processSinglePage(rows) {
 		pagecnt = currentCount;
 		if($("#pageview").prev().html() == "Blog")
 		{
-			$("#pageview").html("PageView <span id = 'visitcount' >"+ currentCount+"</span>").show();	
+			$("#pageview").html("Page Viewed <span id = 'visitcount' >"+ currentCount+"</span>").show();	
 		}
 		else
 		{
@@ -148,10 +148,16 @@ LazyLoad.js('/js/jquery.min.js', function () {
 					}else
 					{
 						$("#pageview").hide();
+						if($("#pageview").prev().html() == "Blog")
+						$("#progress").html(percent+"% viewed").fadeIn();
+						else
 						$("#progress").html(percent+"% 已阅").fadeIn();
 					}
 				}else{
-				$("#mobile-nav").append("<span id='progress' class = 'progress'>"+percent+"% 已阅</span>");
+					if($("#pageview").prev().html() == "Blog")
+					$("#mobile-nav").append("<span id='progress' class = 'progress'>"+percent+"% viewed</span>");
+					else
+				    	$("#mobile-nav").append("<span id='progress' class = 'progress'>"+percent+"% 已阅</span>");
 				}		
 			}
 		}
