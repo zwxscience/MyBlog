@@ -26,6 +26,9 @@
         {% include music.html %}
 
         {% assign isZn = false %}
+        {% if window.location.pathname == '/'%}
+         {% assign isZn = true %}
+         {% endif %}
         {% for tag in page.tags %}
             {% if tag == '中文'%}
                 {% assign isZn = true %}
