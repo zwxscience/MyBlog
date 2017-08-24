@@ -82,8 +82,10 @@ LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
 			if(percent<0.001)
 			{
 				$("#progress").hide();
+				$("#pageview").fadeIn();
 			}else
 			{
+				$("#pageview").hide();
 				$("#progress").html(percent+"% 已阅").fadeIn();
 			}
 		}else{
