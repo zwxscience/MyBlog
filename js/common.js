@@ -61,7 +61,6 @@ function dealvisitCount()
 		 $.ajax({
 			url: 'http://www.zhangweixiang.com/visitInfo.ashx?method=get&from=blog',
 			dataType: 'jsonp',
-			timeout: 1000 * 3, // 3 sec
 			jsonp: "callback",  
 				jsonpCallback: "jsonpCallback",
 			success: function(data) {
