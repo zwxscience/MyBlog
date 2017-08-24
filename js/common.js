@@ -79,7 +79,7 @@ function dealvisitCount()
 
 var pagecnt = 0;
 function processSinglePage(rows) {
-	if (rows == undefined ||(typeof messages === 'string')) {
+	if (rows == undefined ||(typeof rows === 'string')) {
 		return;
 	}
 	var myPath = $.trim(title);
