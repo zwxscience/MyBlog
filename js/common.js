@@ -25,6 +25,18 @@ function processPageView(rows) {
         var myPath = $(this).children('h2').children('a').attr('href');
         if (myPath) {
             myPath = myPath.slice('http://blog.zhangweixiang.com'.length);
+            var cnt = getVisitCount(rows,mypath);
+            if ($(this).hasClass('cn')) {
+                $(this).append('<div class="view-cnt">（' + cnt + ' 人已阅）</div>');
+            } else {
+                $(this).append('<div class="view-cnt">(' + cnt + ' viewed)</div>');
+            }
+        }
+    });
+}
+
+function getVisitCount(rows,mypath)
+{
             var len = rows.length;
             var cnt = 0;
             for (var i = 0; i < len; ++i) {
@@ -38,13 +50,7 @@ function processPageView(rows) {
                     cnt += parseInt(rows[i].Page["@visitCount"]);
                 }
             }
-            if ($(this).hasClass('cn')) {
-                $(this).append('<div class="view-cnt">（' + cnt + ' 人已阅）</div>');
-            } else {
-                $(this).append('<div class="view-cnt">(' + cnt + ' viewed)</div>');
-            }
-        }
-    });
+	return cnt;
 }
 
 
