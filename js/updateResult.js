@@ -1,3 +1,4 @@
+LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
 var queryId = window.location.pathname.indexOf('?');
 var mainPath = queryId >= 0 ? window.location.pathname.slice(0, queryId) : window.location.pathname;
 mainPath = mainPath == "/"? window.location.href:mainPath;//frontPage
@@ -56,3 +57,5 @@ setTimeout(function() {
 		setInterval ("dealvisitCount()", 3000);
 
         }, 1000);
+});
+
