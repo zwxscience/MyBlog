@@ -55,7 +55,6 @@ function getVisitCount(rows,myPath)
 var queryId = window.location.pathname.indexOf('?');
 var mainPath = queryId >= 0 ? window.location.pathname.slice(0, queryId) : window.location.pathname;
 mainPath = mainPath == "/"? window.location.href:mainPath;//frontPage
-var title = ($(document).attr("title") == null) ? $('title').text() : $(document).attr("title");
 
 function dealvisitCount()
 {
@@ -82,7 +81,7 @@ function processSinglePage(rows) {
 	if (rows == undefined ||(typeof rows === 'string')) {
 		return;
 	}
-	var myPath = $.trim(title);
+	var myPath = mainPath;
 
 	var currentCount = getVisitCount(rows,myPath);
 	if(pagecnt< currentCount)
