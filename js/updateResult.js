@@ -1,3 +1,9 @@
+
+LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
+var queryId = window.location.pathname.indexOf('?');
+var mainPath = queryId >= 0 ? window.location.pathname.slice(0, queryId) : window.location.pathname;
+mainPath = mainPath == "/"? window.location.href:mainPath;//frontPage
+var title = ($(document).attr("title") == null) ? $('title').text() : $(document).attr("title");
 function dealvisitCount()
 {
 		 $.ajax({
@@ -16,12 +22,6 @@ function dealvisitCount()
 			}
 		});	
 }
-LazyLoad.js('http://zhangweixiang.com/js/jquery.min.js', function () {
-var queryId = window.location.pathname.indexOf('?');
-var mainPath = queryId >= 0 ? window.location.pathname.slice(0, queryId) : window.location.pathname;
-mainPath = mainPath == "/"? window.location.href:mainPath;//frontPage
-var title = ($(document).attr("title") == null) ? $('title').text() : $(document).attr("title");
-
 
 var pagecnt = 0;
 function processSinglePage(rows) {
