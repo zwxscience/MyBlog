@@ -21,6 +21,7 @@ function dealvisitCount()
 				console.log('Failed to get page view from my site!');	
 			}
 		});	
+	setTimeout("dealvisitCount()",3000);
 }
 
 var pagecnt = 0;
@@ -55,7 +56,7 @@ setTimeout(function() {
 				console.log('Failed to get page view from my site!');	
 			}
 		});	
-		setInterval ("dealvisitCount", 3000);
+		
 
         }, 1000);
 });
