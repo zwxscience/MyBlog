@@ -56,7 +56,7 @@ function getVisitCount(rows,myPath)
 
 LazyLoad.css('/css/font.css');
 
-LazyLoad.js('jquery.min.js', function () {
+LazyLoad.js('/js/jquery.min.js', function () {
     $('h1').each(function() {
         if ($(this).children('.h1-link').length === 0) {
             var id = $(this).text().replace(/\ /g, '-').replace(/\W^\-/g, '')
