@@ -100,7 +100,7 @@ HI，曦曦，我的小乖娃。七夕快到啦，一眨眼你已经两岁啦。
 但每个人终究都会有自己的选择，这些选择逐渐组成一个人的世界观，人生观，价值观。人是有欲望的，有欲望就会有些许琐事，有琐事就会有痛苦，曦曦，我并不是让你将来当一个无欲无求的苦行憎。而是让你相信，这些琐事是击打不碎一颗感性、柔软的心灵的。在路上，疲惫有时、烦恼有时、痛苦有时，这又算什么，它们只是生命当中惯常的小伎俩，对付他们。就像你现在用的那样，<strong>‘我忘了。。。’<strong>。对，就是也样，人生苦短，要时刻保持一颗诗意缱绻的心。
 
 曦曦，继续努力的成长吧，爸爸妈妈会一直记录你成长的每一刻。
-<img class="book-img" src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/post/2017-08-26-celebration-two-years-old.gif" />
+<img class="book-img" src="http://blog.zhangweixiang.com/img/post/2017-08-26-celebration-two-years-old.gif" />
 
 还记得妈妈曾问你的问题吗？
 
@@ -117,6 +117,7 @@ HI，曦曦，我的小乖娃。七夕快到啦，一眨眼你已经两岁啦。
 这个网站已经存在了三年多了，当初申请其实想作为一个share技术的地方，没想到有娃之后多是写的娃的文章。每当有时间静下心可以写点技术分享的时候，总觉得这段时间娃的表现又可以组成一篇文章了。技术类文章天天有人写，一搜一大把，而没人会写我的娃。哎，还是我来动手吧。。
 
 这两天又收到域名商的催债短信的，维护网站得花钱啊。诸位看官，如果你能耐心看到这，识别下面的二维码，就随便打赏个五毛一块的，让网站多跑段日子吧。
+
 <img class="book-img" src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/mm_facetoface_collect_qrcode_1455414545364.png" />
 
 送个小福利，手机端的首页前两天悄悄换了，是个对话游戏，想更多了解我的话，[进去瞅瞅吧](http://zhangweixiang.com/mobile/)。
