@@ -79,7 +79,7 @@ function dealvisitCount()
 				console.log('Failed to get page view from my site!');	
 			}
 		});	
-	setTimeout("dealvisitCount()",3000);
+	setTimeout("dealvisitCount()",5000);
 }
 
 var pagecnt = 0;
