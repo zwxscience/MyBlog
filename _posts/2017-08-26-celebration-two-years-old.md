@@ -23,7 +23,7 @@ setTimeout(function(){$("#music").show().html("<iframe frameborder='no' border='
 
 </script>
 
-HI，曦曦，我的小乖娃。七夕快到啦，一眨眼你已经两岁啦。恭喜恭喜，你的人生道路又到达一个新的节点。
+HI，曦曦，我的小乖娃。七夕即至，一眨眼你已经两岁啦。恭喜恭喜，你的人生道路又到达一个新的节点。
 
 距离上次写的[六一儿童节日志](http://blog.zhangweixiang.com/2017/06/01/to-happy-children's-day/)才过去两个多月，可是这两个月的变化太大太大，以至于每天都觉的我们曦曦每天都在长大。
 
