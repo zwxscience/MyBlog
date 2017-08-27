@@ -19,7 +19,7 @@ excerpt: 迟迟夏日浓荫旁，痴儿初著衣淡黄，娇憨扑爹娘。
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=4879345&auto=0&height=32"></iframe>
 </div>
 <script type="text/javascript">
-setTimeout(function(){$("#music").show().html("<iframe frameborder='no' border='0' marginwidth='0' marginheight='0' width=298 height=52 src='http://music.163.com/outchain/player?type=2&id=4879345&auto=1&height=32'></iframe>")}, 3000);
+setTimeout(function(){$("#music").show().html("<iframe frameborder='no' border='0' marginwidth='0' marginheight='0' width=298 height=52 src='http://music.163.com/outchain/player?type=2&id=4879265&auto=1&height=32'></iframe>")}, 3000);
 
 </script>
 
