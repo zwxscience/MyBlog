@@ -88,7 +88,8 @@ function processSinglePage(rows) {
 		return;
 	}
 	var myPath = mainPath;
-
+ 	var queryId = mainPath.indexOf('?');
+        myPath = queryId >= 0 ? mainPath.slice(0, queryId) : mainPath;  
 	var currentCount = getVisitCount(rows,myPath);
 	if(pagecnt< currentCount)
 	{
