@@ -200,7 +200,7 @@ Hi,我是 weixiang ，英文名<strong>Xavier</strong>，目前从事通信行�
             }, {
                 name: '2017',
                 type: 'bar',
-                data: [3, 3, 2, 4, 3, 0,0, 0, 0,0,0,0],
+                data: [3, 3, 2, 4, 3, 5,4,3, 3,2,4,3],
                 itemStyle: {
                     normal: {
                         color: '#FFEC8B'
