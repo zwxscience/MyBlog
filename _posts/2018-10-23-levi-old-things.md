@@ -8,7 +8,7 @@ tags:
 - 相亲
 - 往事
 series: 故人志
-excerpt: 最近赵哥生病住院了，用他的话说就是中炎逆耳。中炎逆耳利于行，在浙一浙二治疗大半个月未果脑壳反而疼的更厉害了，于是他坐火车回老家医院检查，结果从中耳炎活生生拖成脂流性耳突炎，要做手术的那种，气的他大骂庸医误我。
+excerpt: 最近赵哥生病住院了，用他的话说就是中炎逆耳。在浙一浙二治疗大半个月未果,脑壳反而疼的更厉害了。中炎逆耳利于行，于是他坐火车回老家医院检查，结果从中耳炎活生生拖成脂流性耳突炎，要做手术的那种，气的他大骂庸医误我。
 ---
 <div style='margin:0 auto;width:0px;height:0px;overflow:hidden;'>
 <img src="http://blog.zhangweixiang.com/img/post/2018-10-23-levi-old-things/levi.jpg" title="微信分享缩略图" width='700'>
