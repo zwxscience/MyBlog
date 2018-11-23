@@ -139,7 +139,7 @@ excerpt: 赵大壮是真的大壮，田二妞是假的田二妞。赵哥初恋�
 
 诸位看官，如果你能耐心看到这，识别下面的二维码，就随便打赏个五毛一块的，让网站多跑段日子吧。
 
-另广告位招租，先到先得。价格便宜😊。
+另广告位招租，先到先得。价格便宜😊。隔壁做微商的小孩都馋哭了。
 
 <img class="book-img" src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/mm_facetoface_collect_qrcode_1455414545364.png" />
 
