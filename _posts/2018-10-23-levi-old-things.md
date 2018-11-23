@@ -1,5 +1,5 @@
 ---
-title: 赵哥往事
+title: 第一回 轶事
 time: 2018.10.23 23:43:02
 layout: post
 tags:
@@ -7,7 +7,7 @@ tags:
 - 赵哥
 - 相亲
 - 往事
-series: 故人志
+series: 赵哥往事
 excerpt: 最近赵哥生病住院了，用他的话说就是中炎逆耳。在浙一浙二治疗大半个月未果,脑壳反而疼的更厉害了。中炎逆耳利于行，于是他坐火车回老家医院检查，结果从中耳炎活生生拖成脂流性耳突炎，要做手术的那种，气的他大骂庸医误我。
 ---
 <div style='margin:0 auto;width:0px;height:0px;overflow:hidden;'>
