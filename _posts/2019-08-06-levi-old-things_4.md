@@ -245,7 +245,10 @@ excerpt: 殷勤过日灾须少，侥幸成家祸必多。不管怎么说，赵�
 
 # 打赏打赏
 
-钱够数了明天中午买瓜吃。
+七夕节快乐，但愿赵哥能找到意中人。
+
+打钱！钱够数了明天中午买瓜吃。
+
 
 <img class="book-img" src="{{ site.loadingImg }}" data-src="http://blog.zhangweixiang.com/img/mm_facetoface_collect_qrcode_1455414545364.png" />
 
