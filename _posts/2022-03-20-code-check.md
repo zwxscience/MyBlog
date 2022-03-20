@@ -157,11 +157,11 @@ list = []
 
 #max length
 max_line_length = 80
-</code>
+``` python
 
 > #### deal_single_line.py
 
-<code>
+``` python
 
 import re
 
