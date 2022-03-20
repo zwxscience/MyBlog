@@ -157,7 +157,8 @@ list = []
 
 #max length
 max_line_length = 80
-``` python
+
+``` 
 
 > #### deal_single_line.py
 
@@ -480,6 +481,6 @@ class DealSingle(object):
                 if not (len(re.findall(r"[a-zA-Z<]", line[eqIdx + 1:eqIdx + 2])) > 0 ):
                     self.log.error("file %s,line %d,len %d col %s operator %s missed blank." %
                                (filename, line_no, len(line), str(eqIdx + 1), line[eqIdx:eqIdx + 1]))
-``` python
+```
 
 
